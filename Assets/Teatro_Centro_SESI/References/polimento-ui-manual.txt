@@ -1,0 +1,2 @@
+PASS manual na Game View Full HD, 22/10/2026: botão IR PARA A BILHETERIA fecha aviso e apresenta direção/distância; E reabre o aviso; botão Fechar devolve visão e controles. Porta permanece fechada sem ingresso.
+PASS bilheteria final: E abriu interface; clique em Retirar ingresso emitiu; Concluir fechou e manteve HUD com ingresso emitido.

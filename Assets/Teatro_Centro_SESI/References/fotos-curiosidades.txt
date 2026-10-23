@@ -1,0 +1,1 @@
+Fotografias originais do usuário importadas até 4096 px. Quatro enquadramentos: fachada, entrada/programação, palco/plateia e caixa cênica/equipamentos. Recortes feitos apenas na apresentação da UI, preservando os arquivos originais. Textos e fontes dos painéis preservados. Interação 04 alinhada ao painel movido manualmente.

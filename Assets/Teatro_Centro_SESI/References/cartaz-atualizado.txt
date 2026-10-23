@@ -1,0 +1,1 @@
+PASS Cartaz existente reutilizado no foyer, moldura 1,50 × 1,13 m, igual aos painéis 02/03. Título Maracannes Memorias da Arte. Mesma programação aplicada ao letreiro existente da fachada. Texto permanece editável em TextMesh.

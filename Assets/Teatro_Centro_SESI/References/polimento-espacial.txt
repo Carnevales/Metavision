@@ -1,0 +1,7 @@
+Direita da entrada = +X. Placas e painéis existentes reposicionados; não foram gerados novos pontos de interação.
+PASS Painel_01 · A sede e a cidade afastamento parede 0,010 m
+PASS Painel_02 · SESI: educação e cultura afastamento parede 0,010 m
+PASS Painel_03 · Um teatro no Centro afastamento parede 0,010 m
+PASS Painel_04 · Dentro da caixa cênica afastamento parede 0,005 m
+Controladores de visita: 1; sistemas de ingresso: 1
+Placa BILHETERIA: dois montantes conectados ao tampo; cartaz montado na parede de fundo.

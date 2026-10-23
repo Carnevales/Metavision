@@ -1,0 +1,7 @@
+Construção executada no Editor: 22/10/2026 20:03:15
+Renderers: 3987
+Materiais ausentes ou shaders incompatíveis: 0
+Boca: 9,7 x 4,48; profundidade: 7,3
+Sem assets externos de modelos. Madeira Poly Haven CC0.
+Distribuição da plateia aproximada, não mapa de lugares oficial.
+Teste Play realizado no Editor: teatro visível na Game View; Console observado com 0 erros, 0 avisos e 0 logs durante execução. Retornado ao modo de edição. Três vistas comparadas às referências; enquadramento do balcão corrigido.

@@ -1,0 +1,5 @@
+Fechamento lateral, traseiro e cobertura: PASS
+PASS Lateral esquerda fechada
+PASS Lateral direita fechada
+PASS Parede traseira fechada
+PASS Cobertura integral

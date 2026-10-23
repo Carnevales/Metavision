@@ -1,0 +1,19 @@
+Ampliação executada no Editor Unity: 22/10/2026 20:20:23
+Teatro preservado: construção original reutilizada, somente parede traseira e portas antigas desativadas para abertura.
+Materiais/shaders ausentes: 0
+Volume hall, corredor e rampa estimados. Não são planta real do prédio.
+Validação física completa: ver percurso-runtime.txt após teste Play.
+Eixo central z=-30: superfície superior Calçada portuguesa — padrão aproximado y=0,00
+Eixo central z=-27,5: superfície superior Marquise clara y=3,54
+Eixo central z=-25: superfície superior Teto hall y=3,33
+Eixo central z=-22: superfície superior Teto hall y=3,33
+Eixo central z=-20: superfície superior Teto corredor y=4,58
+Eixo central z=-18: superfície superior Teto corredor y=4,58
+Eixo central z=-16: superfície superior Teto preto y=7,14
+Eixo central z=-15,5: superfície superior Teto preto y=7,14
+Eixo central z=-14,8: superfície superior Teto preto y=7,14
+Eixo central z=-12: superfície superior Teto preto y=7,14
+Eixo central z=-8: superfície superior Teto preto y=7,14
+Eixo central z=-4: superfície superior Teto preto y=7,14
+Eixo central z=-2,1: superfície superior Teto preto y=7,14
+Eixo central z=0: superfície superior Teto preto y=7,14

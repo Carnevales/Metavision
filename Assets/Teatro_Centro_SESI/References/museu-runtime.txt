@@ -1,0 +1,39 @@
+FAIL — fluxo do museu com CharacterController, interações e estado real; 34,1 s
+PASS Início na área externa
+PASS Percurso até 0, -27; posição (0.00, 0.00, -27.21)
+PASS Percurso até 0, -22; posição (0.00, 0.00, -22.19)
+PASS Percurso até 0, -16,6; posição (0.00, 1.15, -16.82)
+PASS Sem ingresso: interação recusa entrada
+PASS Aviso de acesso abre e libera cursor
+PASS Botão de orientação fecha aviso e devolve controles
+PASS Porta fechada bloqueia CharacterController
+PASS Percurso até 0, -22; posição (0.00, 0.00, -21.79)
+PASS Percurso até 0, -26,2; posição (0.00, 0.00, -25.99)
+PASS Percurso até -2,4, -25,9; posição (-2.22, 0.00, -25.91)
+PASS Bilheteria abre por proximidade
+PASS Cancelar não emite ingresso
+PASS Bilheteria reabre
+PASS Retirar ingresso emite ingresso digital
+PASS Emissão duplicada impedida
+PASS Emissão encerra orientação à bilheteria
+PASS Percurso até -0,4, -25,9; posição (-0.60, 0.00, -25.90)
+PASS Percurso até 2,35, -22,8; posição (2.21, 0.00, -22.95)
+PASS Painel 01 abre com conteúdo e fonte
+PASS Fechar painel devolve movimento
+PASS Percurso até -4,5, -22,3; posição (-4.31, 0.00, -22.32)
+PASS Parede do hall impede atravessamento
+PASS Percurso até 0, -22,5; posição (-0.20, 0.00, -22.49)
+PASS Percurso até 2,5, -24,3; posição (2.32, 0.00, -24.18)
+PASS Percurso até 5, -24,3; posição (4.81, 0.00, -24.29)
+PASS Percurso até 5, -22,8; posição (4.98, 0.00, -22.99)
+PASS Painel 02 abre com conteúdo e fonte
+PASS Fechar painel devolve movimento
+PASS Percurso até 8, -22,8; posição (7.79, 0.00, -22.81)
+PASS Painel 03 abre com conteúdo e fonte
+PASS Fechar painel devolve movimento
+PASS Percurso até 11,8, -24,8; posição (11.62, 0.00, -24.71)
+FAIL Painel 04 abre com conteúdo e fonte
+PASS Fechar painel devolve movimento
+FAIL Ingresso validado na porta
+FAIL Folhas animadas e passagem liberada
+FAIL Chegada ao palco sem cair pelo piso

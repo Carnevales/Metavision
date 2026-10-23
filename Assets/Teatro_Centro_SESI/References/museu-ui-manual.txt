@@ -1,0 +1,1 @@
+PASS Game View: tecla E abre a bilheteria; botão Retirar ingresso emite ingresso; Concluir fecha a interface; Escape abre pausa. Verificação manual no Unity Editor em 22/10/2026.
