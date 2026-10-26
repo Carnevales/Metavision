@@ -1,0 +1,4 @@
+PASS Conferência final do Console no Editor: 0 erros, 0 avisos; somente mensagens informativas do URP sobre redução automática do atlas de sombras.
+PASS Cena inicial aberta: Teatro_Centro_SESI, fora do modo Play.
+PASS Pasta Scenes do Maracannes contém somente Maracannes_Acervo.unity. A cena anterior foi arquivada, preservada e excluída da visita/build.
+PASS Tecla E e Esc conferidas manualmente após a última alteração do tratamento de teclado.

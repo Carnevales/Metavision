@@ -15,7 +15,7 @@ namespace TeatroSESI {
  static PercursoBuilder(){EditorApplication.delayCall+=()=>{string p=B+"References/expand.request";if(File.Exists(p)){AssetDatabase.DeleteAsset(p);Build();}};}
  [MenuItem("Teatro SESI/Ampliar fachada e percurso integrado")]
  public static void Build(){
-  var scene=SceneManager.GetSceneByPath(B+"Scenes/Teatro_Centro_SESI.unity");if(!scene.isLoaded)scene=EditorSceneManager.OpenScene(B+"Scenes/Teatro_Centro_SESI.unity",OpenSceneMode.Additive);SceneManager.SetActiveScene(scene);
+  var scene=SceneManager.GetSceneByPath(B+"Scenes/Teatro.unity");if(!scene.isLoaded)scene=EditorSceneManager.OpenScene(B+"Scenes/Teatro.unity",OpenSceneMode.Additive);SceneManager.SetActiveScene(scene);
   var teatro=scene.GetRootGameObjects().Select(g=>g.GetComponent<TeatroDimensions>()).FirstOrDefault(d=>d);if(!teatro)throw new InvalidOperationException("Teatro original não encontrado; construção cancelada.");
   var old=scene.GetRootGameObjects().FirstOrDefault(g=>g.name=="Percurso_Centro_SESI");if(old)UnityEngine.Object.DestroyImmediate(old);
   raiz=new GameObject("Percurso_Centro_SESI").transform;
@@ -131,5 +131,6 @@ namespace TeatroSESI {
  public static void Render(){if(!raiz){var go=GameObject.Find("Percurso_Centro_SESI");if(!go)return;raiz=go.transform;}foreach(var c in raiz.GetComponentsInChildren<Camera>()){var rt=new RenderTexture(1600,1000,24);var prev=c.targetTexture;var active=RenderTexture.active;try{c.targetTexture=rt;c.Render();RenderTexture.active=rt;var tex=new Texture2D(1600,1000,TextureFormat.RGB24,false);tex.ReadPixels(new Rect(0,0,1600,1000),0,0);tex.Apply();File.WriteAllBytes(B+"Lighting/"+c.name+".png",tex.EncodeToPNG());UnityEngine.Object.DestroyImmediate(tex);}finally{c.targetTexture=prev;RenderTexture.active=active;UnityEngine.Object.DestroyImmediate(rt);}}AssetDatabase.Refresh();}
 }
 }
+
 
 

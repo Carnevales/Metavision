@@ -1,0 +1,7 @@
+PASS Conferência manual no Editor após correção do tratamento de eventos de teclado.
+E na porta do saguão: carregou Maracannes_Acervo e descarregou o teatro.
+Esc no acervo: exibiu pausa e liberou o cursor.
+Esc novamente: retomou a visita e a indicação de saída.
+E na porta de saída: descarregou Maracannes_Acervo e retornou ao saguão de Teatro_Centro_SESI.
+O visitante foi mantido entre as cenas; nenhum segundo controlador foi criado durante as transições.
+A janela Game precisa estar focada para receber teclado no Editor.

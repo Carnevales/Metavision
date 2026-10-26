@@ -1,0 +1,2 @@
+PASS 43 originais SHA-256 preservados, sem divergências.
+PASS FBX Ceramic Vase 03 confere com tamanho e MD5 publicados pela Poly Haven.

@@ -1,0 +1,809 @@
+{
+  "files": [
+    {
+      "id": "S2_001",
+      "room": 2,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 2\\cartazesespanholmaracannes1\\fantasia.jpg",
+      "relative": "cartazesespanholmaracannes1\\fantasia.jpg",
+      "bytes": 362346,
+      "sha256": "0dc5b5ea2221e91f79a78031edde149fcb5c09b6480a2d0f03aebad3ac3182c6",
+      "pages": [],
+      "kind": "image",
+      "width": 619,
+      "height": 875,
+      "ratio": 0.7074285714285714,
+      "valid": true
+    },
+    {
+      "id": "S2_002",
+      "room": 2,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 2\\cartazesespanholmaracannes1\\la fiesta.jfif",
+      "relative": "cartazesespanholmaracannes1\\la fiesta.jfif",
+      "bytes": 96859,
+      "sha256": "1f2c46207a5a74f4887f9ea7707abbf3345a25295b5a7c74402b41eea43bcd2e",
+      "pages": [],
+      "kind": "image",
+      "width": 720,
+      "height": 1036,
+      "ratio": 0.694980694980695,
+      "valid": true
+    },
+    {
+      "id": "S2_003",
+      "room": 2,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 2\\cartazesespanholmaracannes1\\rumores.jfif",
+      "relative": "cartazesespanholmaracannes1\\rumores.jfif",
+      "bytes": 46355,
+      "sha256": "d72dbfb6c2a4597333241c9602867a3c218b92a8bfd65187819f999b3b85f04b",
+      "pages": [],
+      "kind": "image",
+      "width": 566,
+      "height": 800,
+      "ratio": 0.7075,
+      "valid": true
+    },
+    {
+      "id": "S2_004",
+      "room": 2,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 2\\cartazesespanholmaracannes1\\solo un vestido.jfif",
+      "relative": "cartazesespanholmaracannes1\\solo un vestido.jfif",
+      "bytes": 93102,
+      "sha256": "11a0c082ae01f121a2d917c86de65b90199d5bea57a503d155c861f4625bbf47",
+      "pages": [],
+      "kind": "image",
+      "width": 740,
+      "height": 1047,
+      "ratio": 0.7067812798471824,
+      "valid": true
+    },
+    {
+      "id": "S2_005",
+      "room": 2,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 2\\cartazesespanholmaracannes1\\tu atuerndo.jfif",
+      "relative": "cartazesespanholmaracannes1\\tu atuerndo.jfif",
+      "bytes": 105121,
+      "sha256": "891c756500abf0db64f75417011baf0e16f674da78401901a72e72d35071cf54",
+      "pages": [],
+      "kind": "image",
+      "width": 740,
+      "height": 1048,
+      "ratio": 0.7061068702290076,
+      "valid": true
+    },
+    {
+      "id": "S2_006",
+      "room": 2,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 2\\cartazesespanholmaracannes1\\vestido de coraje.jpg",
+      "relative": "cartazesespanholmaracannes1\\vestido de coraje.jpg",
+      "bytes": 52482,
+      "sha256": "b35764fc9168cb1e87f87441f7b80cbb1c9c1e0323352d29267a7d75298b4797",
+      "pages": [],
+      "kind": "image",
+      "width": 595,
+      "height": 842,
+      "ratio": 0.7066508313539193,
+      "valid": true
+    },
+    {
+      "id": "S2_008",
+      "room": 2,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 2\\cartazesmaracannes2\\083.jpeg",
+      "relative": "cartazesmaracannes2\\083.jpeg",
+      "bytes": 230925,
+      "sha256": "4b76023d300cd0b7b095f895f024366892d4c86c4ac11bc0f36c7f8f2b337cf8",
+      "pages": [],
+      "kind": "image",
+      "width": 1131,
+      "height": 1600,
+      "ratio": 0.706875,
+      "valid": true
+    },
+    {
+      "id": "S2_009",
+      "room": 2,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 2\\cartazesmaracannes2\\08302.jpeg",
+      "relative": "cartazesmaracannes2\\08302.jpeg",
+      "bytes": 132285,
+      "sha256": "f7c0b7f09c2da616ec356f74805634689450e95bcf24cfc533076364d66c0fcc",
+      "pages": [],
+      "kind": "image",
+      "width": 1131,
+      "height": 1600,
+      "ratio": 0.706875,
+      "valid": true
+    },
+    {
+      "id": "S2_010",
+      "room": 2,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 2\\cartazesmaracannes2\\084 2.jpeg",
+      "relative": "cartazesmaracannes2\\084 2.jpeg",
+      "bytes": 204295,
+      "sha256": "1b3acd32eef8cbc0f25697c4d2a5fe2ae12976280388198dda96dc6a151e1b7b",
+      "pages": [],
+      "kind": "image",
+      "width": 1132,
+      "height": 1600,
+      "ratio": 0.7075,
+      "valid": true
+    },
+    {
+      "id": "S2_011",
+      "room": 2,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 2\\cartazesmaracannes2\\084.jpeg",
+      "relative": "cartazesmaracannes2\\084.jpeg",
+      "bytes": 206293,
+      "sha256": "a2eca48da83821a8bacbc224e4931d0b354043a023d0e5d43ea8b439a891c172",
+      "pages": [],
+      "kind": "image",
+      "width": 1132,
+      "height": 1600,
+      "ratio": 0.7075,
+      "valid": true
+    },
+    {
+      "id": "S2_012",
+      "room": 2,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 2\\cartazesmaracannes2\\085 2.jpeg",
+      "relative": "cartazesmaracannes2\\085 2.jpeg",
+      "bytes": 121004,
+      "sha256": "8ed76a9c167dda52394982688aef336c2d53067193097fdc02d61583a075e6c2",
+      "pages": [],
+      "kind": "image",
+      "width": 1080,
+      "height": 1440,
+      "ratio": 0.75,
+      "valid": true
+    },
+    {
+      "id": "S2_013",
+      "room": 2,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 2\\cartazesmaracannes2\\085.jpeg",
+      "relative": "cartazesmaracannes2\\085.jpeg",
+      "bytes": 89155,
+      "sha256": "99319ac2cf815f86ea1d1685e15028bccee5c9c3ab5dfe15ac6c31b307fb0785",
+      "pages": [],
+      "kind": "image",
+      "width": 1080,
+      "height": 1520,
+      "ratio": 0.7105263157894737,
+      "valid": true
+    },
+    {
+      "id": "S2_014",
+      "room": 2,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 2\\cartazesmaracannes2\\087.jpeg",
+      "relative": "cartazesmaracannes2\\087.jpeg",
+      "bytes": 143819,
+      "sha256": "5bc6cff4f51a4f50e43ab08592eed2e30effcd2ec2bc75cef92cedf765da8751",
+      "pages": [],
+      "kind": "image",
+      "width": 1131,
+      "height": 1600,
+      "ratio": 0.706875,
+      "valid": true
+    },
+    {
+      "id": "S2_015",
+      "room": 2,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 2\\cartazesmaracannes2\\088.pdf",
+      "relative": "cartazesmaracannes2\\088.pdf",
+      "bytes": 4249616,
+      "sha256": "9a5a8fbe9066de8ee8ea2c06d95e7a47fbd88de7532a422c12aaa7e1fb0e2b03",
+      "pages": [
+        {
+          "page": 1,
+          "width": 841.8900146484375,
+          "height": 1190.550048828125
+        }
+      ],
+      "kind": "pdf",
+      "text": "Produzido pela 088\nDirigido por: Pedro Henrique\nMarcos Nassar Iago CabralCarlos Sena",
+      "valid": true
+    },
+    {
+      "id": "S2_016",
+      "room": 2,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 2\\cartazesmaracannes2\\089.jpg",
+      "relative": "cartazesmaracannes2\\089.jpg",
+      "bytes": 85536,
+      "sha256": "a1fe5ba4b366bd4d0bb4619ea506d2b28ea971e66b03a909903c888d7c34fb5f",
+      "pages": [],
+      "kind": "image",
+      "width": 720,
+      "height": 960,
+      "ratio": 0.75,
+      "valid": true
+    },
+    {
+      "id": "S2_017",
+      "room": 2,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 2\\cartazesmaracannes2\\090.png",
+      "relative": "cartazesmaracannes2\\090.png",
+      "bytes": 8293044,
+      "sha256": "9b0ef27d96197563d8e53d7d1f33c547e5abc74dc425e5ae399e56f3bd26d411",
+      "pages": [],
+      "kind": "image",
+      "width": 2480,
+      "height": 3508,
+      "ratio": 0.7069555302166477,
+      "valid": true
+    },
+    {
+      "id": "S2_018",
+      "room": 2,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 2\\cartazesmaracannes2\\091.png",
+      "relative": "cartazesmaracannes2\\091.png",
+      "bytes": 6063005,
+      "sha256": "23761811fdd38d9c8ff965aced0e7ec44791ed51cd6ddd9d8ce85368ade42e2f",
+      "pages": [],
+      "kind": "image",
+      "width": 2592,
+      "height": 3840,
+      "ratio": 0.675,
+      "valid": true
+    },
+    {
+      "id": "S2_019",
+      "room": 2,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 2\\cartazesmaracannes2\\092.pdf",
+      "relative": "cartazesmaracannes2\\092.pdf",
+      "bytes": 320301,
+      "sha256": "4daaf08cc937b21b7f4c39e6124768cd60cd68ea69fefe5efc350ebef16d8ca4",
+      "pages": [
+        {
+          "page": 1,
+          "width": 841.9199829101562,
+          "height": 1190.52001953125
+        }
+      ],
+      "kind": "pdf",
+      "text": " \n",
+      "valid": true
+    },
+    {
+      "id": "S2_020",
+      "room": 2,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 2\\cartazesmaracannes2\\457.jpg",
+      "relative": "cartazesmaracannes2\\457.jpg",
+      "bytes": 230945,
+      "sha256": "673f85e492a4743c06e670ea54ca3778b5d6a9faedae062b8173c8f90864aaba",
+      "pages": [],
+      "kind": "image",
+      "width": 1131,
+      "height": 1600,
+      "ratio": 0.706875,
+      "valid": true
+    },
+    {
+      "id": "S2_021",
+      "room": 2,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 2\\cartazesmaracannes2\\459cartaz.png",
+      "relative": "cartazesmaracannes2\\459cartaz.png",
+      "bytes": 11063635,
+      "sha256": "f5972a89ac285719bdde55903670eca19f3500d6f93267777222383282236f7d",
+      "pages": [],
+      "kind": "image",
+      "width": 2480,
+      "height": 3508,
+      "ratio": 0.7069555302166477,
+      "valid": true
+    },
+    {
+      "id": "S2_022",
+      "room": 2,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 2\\cartazesmaracannes2\\460.jpg",
+      "relative": "cartazesmaracannes2\\460.jpg",
+      "bytes": 520117,
+      "sha256": "6fd01449b491f54faaf1348eba1996036d003f4223a6f682f8a3f6663265e05c",
+      "pages": [],
+      "kind": "image",
+      "width": 1131,
+      "height": 1600,
+      "ratio": 0.706875,
+      "valid": true
+    },
+    {
+      "id": "S2_024",
+      "room": 2,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 2\\cartazesmaracannes3\\1000106347.pdf",
+      "relative": "cartazesmaracannes3\\1000106347.pdf",
+      "bytes": 179106,
+      "sha256": "70723367bd4c88517bfa24a2954ee0ed7a2054c8b5c4a155e2ae1502259af94b",
+      "pages": [
+        {
+          "page": 1,
+          "width": 595.0,
+          "height": 842.0
+        }
+      ],
+      "kind": "pdf",
+      "text": "",
+      "valid": true
+    },
+    {
+      "id": "S2_025",
+      "room": 2,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 2\\cartazesmaracannes3\\1000106349.pdf",
+      "relative": "cartazesmaracannes3\\1000106349.pdf",
+      "bytes": 125467,
+      "sha256": "847627f5b27f4ba92331f625f7f0506e570b2a6fb6bc856faadbbfd858fb1518",
+      "pages": [
+        {
+          "page": 1,
+          "width": 595.0,
+          "height": 842.0
+        }
+      ],
+      "kind": "pdf",
+      "text": "",
+      "valid": true
+    },
+    {
+      "id": "S2_026",
+      "room": 2,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 2\\cartazesmaracannes3\\Red and Yellow Minimalist Movie Night Poster_20240918_120943_0000.pdf",
+      "relative": "cartazesmaracannes3\\Red and Yellow Minimalist Movie Night Poster_20240918_120943_0000.pdf",
+      "bytes": 13190194,
+      "sha256": "8afa5da38d604bc93d350cb8ed1d1f8a186da1a99aa00527e1c1be51654cbe4b",
+      "pages": [
+        {
+          "page": 1,
+          "width": 2592.0,
+          "height": 3456.0
+        }
+      ],
+      "kind": "pdf",
+      "text": "ForrestForrest\nGumpGump\nCarlos EduardoCarlos Eduardo",
+      "valid": true
+    },
+    {
+      "id": "S2_027",
+      "room": 2,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 2\\cartazesmaracannes3\\WhatsApp Image 2024-09-18 at 13.06.42.jpeg",
+      "relative": "cartazesmaracannes3\\WhatsApp Image 2024-09-18 at 13.06.42.jpeg",
+      "bytes": 151857,
+      "sha256": "ad9fd68c53f5a9a76f43860b4a0d42812d22f210fb4ee462512abdecd6234ab9",
+      "pages": [],
+      "kind": "image",
+      "width": 1131,
+      "height": 1600,
+      "ratio": 0.706875,
+      "valid": true
+    },
+    {
+      "id": "S2_028",
+      "room": 2,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 2\\cartazesmaracannes3\\WhatsApp Image 2024-09-18 at 13.06.43.jpeg",
+      "relative": "cartazesmaracannes3\\WhatsApp Image 2024-09-18 at 13.06.43.jpeg",
+      "bytes": 207512,
+      "sha256": "2b42f27395d5dfefc06372eea99650a70cdd1860847c743cea08202d49b7599b",
+      "pages": [],
+      "kind": "image",
+      "width": 1131,
+      "height": 1600,
+      "ratio": 0.706875,
+      "valid": true
+    },
+    {
+      "id": "S2_030",
+      "room": 2,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 2\\cartazmaracannes4\\WhatsApp Image 2025-09-10 at 07.41.58 (1) (1).pdf",
+      "relative": "cartazmaracannes4\\WhatsApp Image 2025-09-10 at 07.41.58 (1) (1).pdf",
+      "bytes": 142936,
+      "sha256": "082f11e9a6953fbde6b30b3bc2da2664a441512a415f54ae39eec8463a00d7e1",
+      "pages": [
+        {
+          "page": 1,
+          "width": 595.0,
+          "height": 842.0
+        }
+      ],
+      "kind": "pdf",
+      "text": "",
+      "valid": true
+    },
+    {
+      "id": "S2_031",
+      "room": 2,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 2\\cartazmaracannes4\\WhatsApp Image 2025-09-10 at 07.41.58 (1).pdf",
+      "relative": "cartazmaracannes4\\WhatsApp Image 2025-09-10 at 07.41.58 (1).pdf",
+      "bytes": 222381,
+      "sha256": "f6ca62efc7d47c1fb6b89ce7cbe4d1e0033141eda0d69952fb4686eba4fc4acb",
+      "pages": [
+        {
+          "page": 1,
+          "width": 595.0,
+          "height": 842.0
+        }
+      ],
+      "kind": "pdf",
+      "text": "",
+      "valid": true
+    },
+    {
+      "id": "S2_033",
+      "room": 2,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 2\\maracannes2\\IMG-20230914-WA0041.jpg",
+      "relative": "maracannes2\\IMG-20230914-WA0041.jpg",
+      "bytes": 20274,
+      "sha256": "5f406f53f556457dc1335566ed1b5b59f759c7e8411e586977db9ba774865165",
+      "pages": [],
+      "kind": "image",
+      "width": 320,
+      "height": 472,
+      "ratio": 0.6779661016949152,
+      "valid": true
+    },
+    {
+      "id": "S2_034",
+      "room": 2,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 2\\maracannes2\\WhatsApp Image 2023-09-14 at 23.21.14.jpeg",
+      "relative": "maracannes2\\WhatsApp Image 2023-09-14 at 23.21.14.jpeg",
+      "bytes": 292912,
+      "sha256": "121c1801a4d82ce1c342ca233a37a93b2846e388a93c644c79c3097f2b418af2",
+      "pages": [],
+      "kind": "image",
+      "width": 1131,
+      "height": 1600,
+      "ratio": 0.706875,
+      "valid": true
+    },
+    {
+      "id": "S3_000",
+      "room": 3,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 3\\1000161603.jpg",
+      "relative": "1000161603.jpg",
+      "bytes": 169141,
+      "sha256": "db5fe59b90fa701a3b61440707e293b83ff1f8129766d652b0fa4d8e779cda19",
+      "pages": [],
+      "kind": "image",
+      "width": 1131,
+      "height": 1600,
+      "ratio": 0.706875,
+      "valid": true
+    },
+    {
+      "id": "S3_001",
+      "room": 3,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 3\\1000161607.jpg",
+      "relative": "1000161607.jpg",
+      "bytes": 288940,
+      "sha256": "4a5f493d859e5963044023cac3574ae6e43e12348fa7d183d7b1f2f19f87109f",
+      "pages": [],
+      "kind": "image",
+      "width": 1131,
+      "height": 1600,
+      "ratio": 0.706875,
+      "valid": true
+    },
+    {
+      "id": "S3_002",
+      "room": 3,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 3\\1000161613.jpg",
+      "relative": "1000161613.jpg",
+      "bytes": 97128,
+      "sha256": "febed218f479576c93e86a0f1b14ed42d035403d4483d257d7ba55667466d430",
+      "pages": [],
+      "kind": "image",
+      "width": 1131,
+      "height": 1600,
+      "ratio": 0.706875,
+      "valid": true
+    },
+    {
+      "id": "S3_003",
+      "room": 3,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 3\\1000161616.jpg",
+      "relative": "1000161616.jpg",
+      "bytes": 61350,
+      "sha256": "9d2fcfd541ff5d80992959105a938490d0f44e47654f51bce04ba38d138e6160",
+      "pages": [],
+      "kind": "image",
+      "width": 565,
+      "height": 800,
+      "ratio": 0.70625,
+      "valid": true
+    },
+    {
+      "id": "S3_004",
+      "room": 3,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 3\\1000161619.jpg",
+      "relative": "1000161619.jpg",
+      "bytes": 161870,
+      "sha256": "e93354bb4aec463f737e12c12cfce5c1d6107e75fbbbac1e6b035827647f84b0",
+      "pages": [],
+      "kind": "image",
+      "width": 1080,
+      "height": 1350,
+      "ratio": 0.8,
+      "valid": true
+    },
+    {
+      "id": "S3_005",
+      "room": 3,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 3\\1000161622.jpg",
+      "relative": "1000161622.jpg",
+      "bytes": 239673,
+      "sha256": "c9e52b0fab54c69805668598887645a73a4453eefe8a8bb701633ef521d2a235",
+      "pages": [],
+      "kind": "image",
+      "width": 1080,
+      "height": 1350,
+      "ratio": 0.8,
+      "valid": true
+    },
+    {
+      "id": "S3_006",
+      "room": 3,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 3\\1000161628.jpg",
+      "relative": "1000161628.jpg",
+      "bytes": 287066,
+      "sha256": "34b574bcbcaccd281839ec5b450aaa3421332515c31da66a4d709b20c6b2aa78",
+      "pages": [],
+      "kind": "image",
+      "width": 1200,
+      "height": 1574,
+      "ratio": 0.7623888182973316,
+      "valid": true
+    },
+    {
+      "id": "S3_007",
+      "room": 3,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 3\\1000161631.jpg",
+      "relative": "1000161631.jpg",
+      "bytes": 115160,
+      "sha256": "f4e6feb9a1216bddbb79693e2b574d552879827a01248900acc8caaa33392668",
+      "pages": [],
+      "kind": "image",
+      "width": 1131,
+      "height": 1600,
+      "ratio": 0.706875,
+      "valid": true
+    },
+    {
+      "id": "S3_008",
+      "room": 3,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 3\\1000161634.jpg",
+      "relative": "1000161634.jpg",
+      "bytes": 179749,
+      "sha256": "b61be526388fecbc0c68b5d1f8e8c7907822e6e9a8261b05fc4327bb86aa691a",
+      "pages": [],
+      "kind": "image",
+      "width": 1080,
+      "height": 1350,
+      "ratio": 0.8,
+      "valid": true
+    },
+    {
+      "id": "S3_009",
+      "room": 3,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 3\\1000161637.jpg",
+      "relative": "1000161637.jpg",
+      "bytes": 262727,
+      "sha256": "c3cea5cf5a2e913d76b2307a775ec08ca887e9251c2f45bc1560d2671c0f6bbd",
+      "pages": [],
+      "kind": "image",
+      "width": 1200,
+      "height": 1599,
+      "ratio": 0.7504690431519699,
+      "valid": true
+    },
+    {
+      "id": "S4_000",
+      "room": 4,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 4\\Capa do filme português.pdf",
+      "relative": "Capa do filme português.pdf",
+      "bytes": 4980938,
+      "sha256": "671fe5c25719b49ca3e638b3e520d71bfb7f3d0310e7c834cb85d529dbb52389",
+      "pages": [
+        {
+          "page": 1,
+          "width": 842.25,
+          "height": 1190.25
+        }
+      ],
+      "kind": "pdf",
+      "text": "Turma Responsável : 688 - Jogos Digitais\n3 6\n8\nGravado por  \nGabriela de Barros, Bruna de Lucas, Carlos Henrique  \nde Abreu, Camilly Silva e Ana Flávia Ribeiro.\nDirigido por  \n Izabel Godinho e Maria Fernanda Mouzinho\n Design e Edição  \n Izabel Godinho, Gabriela Sena, Sarah de Castro\n e Nicollas Souza",
+      "valid": true
+    },
+    {
+      "id": "S4_001",
+      "room": 4,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 4\\Cartaz - Português.PDF",
+      "relative": "Cartaz - Português.PDF",
+      "bytes": 26288960,
+      "sha256": "417e2182f9dcfcb4b063ccf4963a14b68773befd1169479fc87c2dc2c340b5aa",
+      "pages": [
+        {
+          "page": 1,
+          "width": 560.0,
+          "height": 792.0
+        }
+      ],
+      "kind": "pdf",
+      "text": "Notas\nde uma\nEscrito por Heloísa Esteves\n",
+      "valid": true
+    },
+    {
+      "id": "S4_002",
+      "room": 4,
+      "path": "C:\\Users\\migue\\Downloads\\maracannes sala 4\\Group 6.png",
+      "relative": "Group 6.png",
+      "bytes": 1113885,
+      "sha256": "fb4bdb01eaefdb0b977f72ae0ec125d27d1294550de331831b972a1b68d58b0f",
+      "pages": [],
+      "kind": "image",
+      "width": 8514,
+      "height": 238,
+      "ratio": 35.773109243697476,
+      "valid": true
+    }
+  ],
+  "archives": [
+    {
+      "path": "C:\\Users\\migue\\Downloads\\cartazesespanholmaracannes1.zip",
+      "corrupt_member": null,
+      "files": [
+        {
+          "name": "la fiesta.jfif",
+          "size": 96859,
+          "sha256": "1f2c46207a5a74f4887f9ea7707abbf3345a25295b5a7c74402b41eea43bcd2e"
+        },
+        {
+          "name": "rumores.jfif",
+          "size": 46355,
+          "sha256": "d72dbfb6c2a4597333241c9602867a3c218b92a8bfd65187819f999b3b85f04b"
+        },
+        {
+          "name": "tu atuerndo.jfif",
+          "size": 105121,
+          "sha256": "891c756500abf0db64f75417011baf0e16f674da78401901a72e72d35071cf54"
+        },
+        {
+          "name": "solo un vestido.jfif",
+          "size": 93102,
+          "sha256": "11a0c082ae01f121a2d917c86de65b90199d5bea57a503d155c861f4625bbf47"
+        },
+        {
+          "name": "vestido de coraje.jpg",
+          "size": 52482,
+          "sha256": "b35764fc9168cb1e87f87441f7b80cbb1c9c1e0323352d29267a7d75298b4797"
+        },
+        {
+          "name": "fantasia.jpg",
+          "size": 362346,
+          "sha256": "0dc5b5ea2221e91f79a78031edde149fcb5c09b6480a2d0f03aebad3ac3182c6"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\migue\\Downloads\\cartazesmaracannes2.zip",
+      "corrupt_member": null,
+      "files": [
+        {
+          "name": "088.pdf",
+          "size": 4249616,
+          "sha256": "9a5a8fbe9066de8ee8ea2c06d95e7a47fbd88de7532a422c12aaa7e1fb0e2b03"
+        },
+        {
+          "name": "089.jpg",
+          "size": 85536,
+          "sha256": "a1fe5ba4b366bd4d0bb4619ea506d2b28ea971e66b03a909903c888d7c34fb5f"
+        },
+        {
+          "name": "091.png",
+          "size": 6063005,
+          "sha256": "23761811fdd38d9c8ff965aced0e7ec44791ed51cd6ddd9d8ce85368ade42e2f"
+        },
+        {
+          "name": "459cartaz.png",
+          "size": 11063635,
+          "sha256": "f5972a89ac285719bdde55903670eca19f3500d6f93267777222383282236f7d"
+        },
+        {
+          "name": "092.pdf",
+          "size": 320301,
+          "sha256": "4daaf08cc937b21b7f4c39e6124768cd60cd68ea69fefe5efc350ebef16d8ca4"
+        },
+        {
+          "name": "460.jpg",
+          "size": 520117,
+          "sha256": "6fd01449b491f54faaf1348eba1996036d003f4223a6f682f8a3f6663265e05c"
+        },
+        {
+          "name": "457.jpg",
+          "size": 230945,
+          "sha256": "673f85e492a4743c06e670ea54ca3778b5d6a9faedae062b8173c8f90864aaba"
+        },
+        {
+          "name": "085.jpeg",
+          "size": 89155,
+          "sha256": "99319ac2cf815f86ea1d1685e15028bccee5c9c3ab5dfe15ac6c31b307fb0785"
+        },
+        {
+          "name": "090.png",
+          "size": 8293044,
+          "sha256": "9b0ef27d96197563d8e53d7d1f33c547e5abc74dc425e5ae399e56f3bd26d411"
+        },
+        {
+          "name": "085 2.jpeg",
+          "size": 121004,
+          "sha256": "8ed76a9c167dda52394982688aef336c2d53067193097fdc02d61583a075e6c2"
+        },
+        {
+          "name": "083.jpeg",
+          "size": 230925,
+          "sha256": "4b76023d300cd0b7b095f895f024366892d4c86c4ac11bc0f36c7f8f2b337cf8"
+        },
+        {
+          "name": "087.jpeg",
+          "size": 143819,
+          "sha256": "5bc6cff4f51a4f50e43ab08592eed2e30effcd2ec2bc75cef92cedf765da8751"
+        },
+        {
+          "name": "08302.jpeg",
+          "size": 132285,
+          "sha256": "f7c0b7f09c2da616ec356f74805634689450e95bcf24cfc533076364d66c0fcc"
+        },
+        {
+          "name": "084.jpeg",
+          "size": 206293,
+          "sha256": "a2eca48da83821a8bacbc224e4931d0b354043a023d0e5d43ea8b439a891c172"
+        },
+        {
+          "name": "084 2.jpeg",
+          "size": 204295,
+          "sha256": "1b3acd32eef8cbc0f25697c4d2a5fe2ae12976280388198dda96dc6a151e1b7b"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\migue\\Downloads\\cartazesmaracannes3.zip",
+      "corrupt_member": null,
+      "files": [
+        {
+          "name": "1000106347.pdf",
+          "size": 179106,
+          "sha256": "70723367bd4c88517bfa24a2954ee0ed7a2054c8b5c4a155e2ae1502259af94b"
+        },
+        {
+          "name": "1000106349.pdf",
+          "size": 125467,
+          "sha256": "847627f5b27f4ba92331f625f7f0506e570b2a6fb6bc856faadbbfd858fb1518"
+        },
+        {
+          "name": "Red and Yellow Minimalist Movie Night Poster_20240918_120943_0000.pdf",
+          "size": 13190194,
+          "sha256": "8afa5da38d604bc93d350cb8ed1d1f8a186da1a99aa00527e1c1be51654cbe4b"
+        },
+        {
+          "name": "WhatsApp Image 2024-09-18 at 13.06.42.jpeg",
+          "size": 151857,
+          "sha256": "ad9fd68c53f5a9a76f43860b4a0d42812d22f210fb4ee462512abdecd6234ab9"
+        },
+        {
+          "name": "WhatsApp Image 2024-09-18 at 13.06.43.jpeg",
+          "size": 207512,
+          "sha256": "2b42f27395d5dfefc06372eea99650a70cdd1860847c743cea08202d49b7599b"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\migue\\Downloads\\maracannes2.zip",
+      "corrupt_member": null,
+      "files": [
+        {
+          "name": "WhatsApp Image 2023-09-14 at 23.21.14.jpeg",
+          "size": 292912,
+          "sha256": "121c1801a4d82ce1c342ca233a37a93b2846e388a93c644c79c3097f2b418af2"
+        },
+        {
+          "name": "IMG-20230914-WA0041.jpg",
+          "size": 20274,
+          "sha256": "5f406f53f556457dc1335566ed1b5b59f759c7e8411e586977db9ba774865165"
+        }
+      ]
+    }
+  ],
+  "duplicates": []
+}

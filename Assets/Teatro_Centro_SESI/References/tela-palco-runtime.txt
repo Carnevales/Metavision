@@ -1,0 +1,1 @@
+PASS · Tela no palco com imagem integral, proporção preservada, material válido e colisor. Captura real em Play Mode.

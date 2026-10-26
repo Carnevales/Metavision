@@ -1,0 +1,140 @@
+PASS Teste real no Editor · 1,3 segundos. Modo catalog: inicialização pela SampleScene e inspeção individual dos cartazes com reposicionamento explícito de teste. Caminhada contínua documentada em percurso-runtime.txt.
+PASS Controlador e interface existentes reutilizados
+PASS Visitante começa no exterior
+PASS Inicialização com três cenas carregadas e sem duplicação
+PASS Um único controlador de visitante
+PASS 43 pontos do acervo registrados na interface existente
+PASS Painel histórico abre: O que é o Maracannes?
+PASS Painel histórico abre: Maracannes 1 · A origem
+PASS Painel histórico abre: Maracannes 3 · Uma nova fase
+PASS Painel histórico abre: Arte, criatividade e protagonismo
+PASS 43 materiais em exatamente quatro salas
+PASS Abre cartaz por proximidade: S2_001
+PASS Ampliação integral: S2_001
+PASS Fechar devolve controles: S2_001
+PASS Abre cartaz por proximidade: S2_002
+PASS Ampliação integral: S2_002
+PASS Fechar devolve controles: S2_002
+PASS Abre cartaz por proximidade: S2_003
+PASS Ampliação integral: S2_003
+PASS Fechar devolve controles: S2_003
+PASS Abre cartaz por proximidade: S2_004
+PASS Ampliação integral: S2_004
+PASS Fechar devolve controles: S2_004
+PASS Abre cartaz por proximidade: S2_005
+PASS Ampliação integral: S2_005
+PASS Fechar devolve controles: S2_005
+PASS Abre cartaz por proximidade: S2_006
+PASS Ampliação integral: S2_006
+PASS Fechar devolve controles: S2_006
+PASS Abre cartaz por proximidade: S2_008
+PASS Ampliação integral: S2_008
+PASS Fechar devolve controles: S2_008
+PASS Abre cartaz por proximidade: S2_009
+PASS Ampliação integral: S2_009
+PASS Fechar devolve controles: S2_009
+PASS Abre cartaz por proximidade: S2_010
+PASS Ampliação integral: S2_010
+PASS Fechar devolve controles: S2_010
+PASS Abre cartaz por proximidade: S2_011
+PASS Ampliação integral: S2_011
+PASS Fechar devolve controles: S2_011
+PASS Abre cartaz por proximidade: S2_012
+PASS Ampliação integral: S2_012
+PASS Fechar devolve controles: S2_012
+PASS Abre cartaz por proximidade: S2_013
+PASS Ampliação integral: S2_013
+PASS Fechar devolve controles: S2_013
+PASS Abre cartaz por proximidade: S2_014
+PASS Ampliação integral: S2_014
+PASS Fechar devolve controles: S2_014
+PASS Abre cartaz por proximidade: S2_015
+PASS Ampliação integral: S2_015
+PASS Fechar devolve controles: S2_015
+PASS Abre cartaz por proximidade: S2_016
+PASS Ampliação integral: S2_016
+PASS Fechar devolve controles: S2_016
+PASS Abre cartaz por proximidade: S2_017
+PASS Ampliação integral: S2_017
+PASS Fechar devolve controles: S2_017
+PASS Abre cartaz por proximidade: S2_018
+PASS Ampliação integral: S2_018
+PASS Fechar devolve controles: S2_018
+PASS Abre cartaz por proximidade: S2_019
+PASS Ampliação integral: S2_019
+PASS Fechar devolve controles: S2_019
+PASS Abre cartaz por proximidade: S2_020
+PASS Ampliação integral: S2_020
+PASS Fechar devolve controles: S2_020
+PASS Abre cartaz por proximidade: S2_021
+PASS Ampliação integral: S2_021
+PASS Fechar devolve controles: S2_021
+PASS Abre cartaz por proximidade: S2_022
+PASS Ampliação integral: S2_022
+PASS Fechar devolve controles: S2_022
+PASS Abre cartaz por proximidade: S2_024
+PASS Ampliação integral: S2_024
+PASS Fechar devolve controles: S2_024
+PASS Abre cartaz por proximidade: S2_025
+PASS Ampliação integral: S2_025
+PASS Fechar devolve controles: S2_025
+PASS Abre cartaz por proximidade: S2_026
+PASS Ampliação integral: S2_026
+PASS Fechar devolve controles: S2_026
+PASS Abre cartaz por proximidade: S2_027
+PASS Ampliação integral: S2_027
+PASS Fechar devolve controles: S2_027
+PASS Abre cartaz por proximidade: S2_028
+PASS Ampliação integral: S2_028
+PASS Fechar devolve controles: S2_028
+PASS Abre cartaz por proximidade: S2_030
+PASS Ampliação integral: S2_030
+PASS Fechar devolve controles: S2_030
+PASS Abre cartaz por proximidade: S2_031
+PASS Ampliação integral: S2_031
+PASS Fechar devolve controles: S2_031
+PASS Abre cartaz por proximidade: S2_033
+PASS Ampliação integral: S2_033
+PASS Fechar devolve controles: S2_033
+PASS Abre cartaz por proximidade: S2_034
+PASS Ampliação integral: S2_034
+PASS Fechar devolve controles: S2_034
+PASS Abre cartaz por proximidade: S3_000
+PASS Ampliação integral: S3_000
+PASS Fechar devolve controles: S3_000
+PASS Abre cartaz por proximidade: S3_001
+PASS Ampliação integral: S3_001
+PASS Fechar devolve controles: S3_001
+PASS Abre cartaz por proximidade: S3_002
+PASS Ampliação integral: S3_002
+PASS Fechar devolve controles: S3_002
+PASS Abre cartaz por proximidade: S3_003
+PASS Ampliação integral: S3_003
+PASS Fechar devolve controles: S3_003
+PASS Abre cartaz por proximidade: S3_004
+PASS Ampliação integral: S3_004
+PASS Fechar devolve controles: S3_004
+PASS Abre cartaz por proximidade: S3_005
+PASS Ampliação integral: S3_005
+PASS Fechar devolve controles: S3_005
+PASS Abre cartaz por proximidade: S3_006
+PASS Ampliação integral: S3_006
+PASS Fechar devolve controles: S3_006
+PASS Abre cartaz por proximidade: S3_007
+PASS Ampliação integral: S3_007
+PASS Fechar devolve controles: S3_007
+PASS Abre cartaz por proximidade: S3_008
+PASS Ampliação integral: S3_008
+PASS Fechar devolve controles: S3_008
+PASS Abre cartaz por proximidade: S3_009
+PASS Ampliação integral: S3_009
+PASS Fechar devolve controles: S3_009
+PASS Abre cartaz por proximidade: S4_000
+PASS Ampliação integral: S4_000
+PASS Fechar devolve controles: S4_000
+PASS Abre cartaz por proximidade: S4_001
+PASS Ampliação integral: S4_001
+PASS Fechar devolve controles: S4_001
+PASS Abre cartaz por proximidade: S4_002
+PASS Ampliação integral: S4_002
+PASS Fechar devolve controles: S4_002

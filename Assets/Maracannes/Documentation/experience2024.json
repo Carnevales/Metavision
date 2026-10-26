@@ -1,0 +1,112 @@
+{
+  "posters": [
+    {
+      "id": "EXP2024_01_01",
+      "title": "",
+      "room": 5,
+      "width": 1800,
+      "height": 2400,
+      "path": "Assets/Maracannes/Images/Experience2024/EXP2024_01_01.png",
+      "original": "Assets/Maracannes/Documentation/Originais/Experience2024/Red and Yellow Minimalist Movie Night Poster_20240918_120943_0000.pdf",
+      "sourceHash": "8afa5da38d604bc93d350cb8ed1d1f8a186da1a99aa00527e1c1be51654cbe4b",
+      "sourceName": "Red and Yellow Minimalist Movie Night Poster_20240918_120943_0000.pdf",
+      "group": "Maracannes Experience 2024 · fornecido pelo usuário"
+    },
+    {
+      "id": "EXP2024_02_01",
+      "title": "",
+      "room": 5,
+      "width": 1696,
+      "height": 2400,
+      "path": "Assets/Maracannes/Images/Experience2024/EXP2024_02_01.png",
+      "original": "Assets/Maracannes/Documentation/Originais/Experience2024/1000106349.pdf",
+      "sourceHash": "847627f5b27f4ba92331f625f7f0506e570b2a6fb6bc856faadbbfd858fb1518",
+      "sourceName": "1000106349.pdf",
+      "group": "Maracannes Experience 2024 · fornecido pelo usuário"
+    },
+    {
+      "id": "EXP2024_03_01",
+      "title": "",
+      "room": 5,
+      "width": 1696,
+      "height": 2400,
+      "path": "Assets/Maracannes/Images/Experience2024/EXP2024_03_01.png",
+      "original": "Assets/Maracannes/Documentation/Originais/Experience2024/1000106347.pdf",
+      "sourceHash": "70723367bd4c88517bfa24a2954ee0ed7a2054c8b5c4a155e2ae1502259af94b",
+      "sourceName": "1000106347.pdf",
+      "group": "Maracannes Experience 2024 · fornecido pelo usuário"
+    },
+    {
+      "id": "EXP2024_04_01",
+      "title": "",
+      "room": 5,
+      "width": 1697,
+      "height": 2400,
+      "path": "Assets/Maracannes/Images/Experience2024/EXP2024_04_01.png",
+      "original": "Assets/Maracannes/Documentation/Originais/Experience2024/Cartaz Maracannes Português 296 (8) (1).pdf",
+      "sourceHash": "0dc773f929dcaf496fbd8a793fdea09ab56b53095c3bd7c2834ccfddb94c7066",
+      "sourceName": "Cartaz Maracannes Português 296 (8) (1).pdf",
+      "group": "Maracannes Experience 2024 · fornecido pelo usuário"
+    },
+    {
+      "id": "EXP2024_05_01",
+      "title": "",
+      "room": 5,
+      "width": 1697,
+      "height": 2400,
+      "path": "Assets/Maracannes/Images/Experience2024/EXP2024_05_01.png",
+      "original": "Assets/Maracannes/Documentation/Originais/Experience2024/cartaz (1).pdf",
+      "sourceHash": "0d6d30d4cc236142f47a4f404cdc0a1005bf7da012c2e87d682e22aad00ede59",
+      "sourceName": "cartaz (1).pdf",
+      "group": "Maracannes Experience 2024 · fornecido pelo usuário"
+    },
+    {
+      "id": "EXP2024_06_01",
+      "title": "",
+      "room": 5,
+      "width": 1119,
+      "height": 2160,
+      "path": "Assets/Maracannes/Images/Experience2024/EXP2024_06_01.png",
+      "original": "Assets/Maracannes/Documentation/Originais/Experience2024/cartaz_300.pdf",
+      "sourceHash": "ed8bdef4cd037d856b7bf4596944c0f9637c716c815661eb7f87f3a966ddf8ca",
+      "sourceName": "cartaz_300.pdf",
+      "group": "Maracannes Experience 2024 · fornecido pelo usuário"
+    },
+    {
+      "id": "EXP2024_07_01",
+      "title": "",
+      "room": 5,
+      "width": 1131,
+      "height": 1600,
+      "path": "Assets/Maracannes/Images/Experience2024/WhatsApp Image 2024-09-18 at 13.06.43.jpeg",
+      "original": "Assets/Maracannes/Documentation/Originais/Experience2024/WhatsApp Image 2024-09-18 at 13.06.43.jpeg",
+      "sourceHash": "2b42f27395d5dfefc06372eea99650a70cdd1860847c743cea08202d49b7599b",
+      "sourceName": "WhatsApp Image 2024-09-18 at 13.06.43.jpeg",
+      "group": "Maracannes Experience 2024 · fornecido pelo usuário"
+    },
+    {
+      "id": "EXP2024_08_01",
+      "title": "",
+      "room": 5,
+      "width": 1131,
+      "height": 1600,
+      "path": "Assets/Maracannes/Images/Experience2024/WhatsApp Image 2024-09-18 at 13.06.42.jpeg",
+      "original": "Assets/Maracannes/Documentation/Originais/Experience2024/WhatsApp Image 2024-09-18 at 13.06.42.jpeg",
+      "sourceHash": "ad9fd68c53f5a9a76f43860b4a0d42812d22f210fb4ee462512abdecd6234ab9",
+      "sourceName": "WhatsApp Image 2024-09-18 at 13.06.42.jpeg",
+      "group": "Maracannes Experience 2024 · fornecido pelo usuário"
+    },
+    {
+      "id": "EXP2024_09_01",
+      "title": "",
+      "room": 5,
+      "width": 1131,
+      "height": 1600,
+      "path": "Assets/Maracannes/Images/Experience2024/WhatsApp Image 2026-10-25 at 22.02.15.jpeg",
+      "original": "Assets/Maracannes/Documentation/Originais/Experience2024/WhatsApp Image 2026-10-25 at 22.02.15.jpeg",
+      "sourceHash": "5e4fd5b45469a954f379f9d8e0a3f7c5ceae687a3dc364b41c7cf18c503ad9b7",
+      "sourceName": "WhatsApp Image 2026-10-25 at 22.02.15.jpeg",
+      "group": "Maracannes Experience 2024 · fornecido pelo usuário"
+    }
+  ]
+}

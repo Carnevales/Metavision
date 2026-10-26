@@ -1,0 +1,4 @@
+PASS · Play Mode: áudio ambiente e transições
+PASS Reprodução ativa em loop 2D; volume 3,5%; entrada suave.
+PASS Teatro → acervo: mesma reprodução contínua, sem duplicação.
+PASS Acervo → teatro: música preservada, um único emissor.

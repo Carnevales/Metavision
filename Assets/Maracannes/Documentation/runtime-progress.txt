@@ -1,0 +1,5 @@
+PASS Controlador e interface existentes reutilizados
+PASS Visitante começa no exterior
+PASS Inicialização com três cenas carregadas e sem duplicação
+PASS Um único controlador de visitante
+PASS 43 pontos do acervo registrados na interface existente

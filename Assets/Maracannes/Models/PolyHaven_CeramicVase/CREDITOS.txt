@@ -1,0 +1,7 @@
+Ceramic Vase 03 — James Ray Cock — Poly Haven
+https://polyhaven.com/a/ceramic_vase_03
+CC0: https://polyhaven.com/license
+FBX 1k: 352316 bytes; MD5 b112906868219f45f9f12c44dbd28d0d; aproximadamente 3 mil triângulos.
+Textura diffuse 1k: 127057 bytes; MD5 f5688bd3b1835b5dd94f701704d5dc5d.
+Objeto decorativo de apoio; não é uma obra histórica do Maracannes ou representação atribuída a artista brasileiro.
+Powered by Poly Haven — consulta à API para baixar o modelo; nenhuma dependência de rede em runtime.

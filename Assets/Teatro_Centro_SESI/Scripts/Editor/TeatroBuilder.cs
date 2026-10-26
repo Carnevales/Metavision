@@ -14,7 +14,7 @@ namespace TeatroSESI {
  static TeatroBuilder(){ EditorApplication.delayCall += ()=> { if(File.Exists(B+"References/build.request")) { AssetDatabase.DeleteAsset(B+"References/build.request"); CreateScene(); } }; }
  [MenuItem("Teatro SESI/Criar ou abrir cena do teatro")]
  public static void CreateScene(){
-  string path=B+"Scenes/Teatro_Centro_SESI.unity";
+  string path=B+"Scenes/Teatro.unity";
   if(File.Exists(path)) { var existing=SceneManager.GetSceneByPath(path); if(!existing.isLoaded)existing=EditorSceneManager.OpenScene(path,OpenSceneMode.Additive); SceneManager.SetActiveScene(existing); foreach(var g in existing.GetRootGameObjects()){var settings=g.GetComponent<TeatroDimensions>();if(settings){Build(settings);EditorSceneManager.SaveScene(existing);RenderViews();return;}} }
   var scene=EditorSceneManager.NewScene(NewSceneSetup.EmptyScene,NewSceneMode.Additive); SceneManager.SetActiveScene(scene);
   var go=new GameObject("Teatro_Centro_SESI"); var d=go.AddComponent<TeatroDimensions>(); Build(d);
@@ -127,5 +127,6 @@ namespace TeatroSESI {
  public static void RenderViews(){if(!root){var d=UnityEngine.Object.FindAnyObjectByType<TeatroDimensions>();if(!d)return;root=d.transform;} foreach(var c in root.GetComponentsInChildren<Camera>()){var rt=new RenderTexture(1600,1000,24);c.targetTexture=rt;c.Render();RenderTexture.active=rt;var tex=new Texture2D(1600,1000,TextureFormat.RGB24,false);tex.ReadPixels(new Rect(0,0,1600,1000),0,0);tex.Apply();File.WriteAllBytes(B+"Lighting/"+c.name+".png",tex.EncodeToPNG());c.targetTexture=null;RenderTexture.active=null;UnityEngine.Object.DestroyImmediate(tex);UnityEngine.Object.DestroyImmediate(rt);}AssetDatabase.Refresh();}
 }
 }
+
 
 

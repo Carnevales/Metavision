@@ -1,0 +1,20 @@
+PASS · Teste real no Play Mode: acervo, cartazes, cobertura e circulação 02 → 2024 → 2025
+PASS Cinco salas, incluindo Experience 2024
+PASS 66 cartazes preservados sem interação
+PASS Nove cartazes recebidos expostos na sala 2024
+PASS Acervo anterior preservado: 30 + 10 + 17 cartazes
+PASS EXP2024_01_01 · material local válido e cartaz sem interação/legenda
+PASS EXP2024_02_01 · material local válido e cartaz sem interação/legenda
+PASS EXP2024_08_01 · material local válido e cartaz sem interação/legenda
+PASS EXP2024_09_01 · material local válido e cartaz sem interação/legenda
+PASS EXP2024_03_01 · material local válido e cartaz sem interação/legenda
+PASS EXP2024_04_01 · material local válido e cartaz sem interação/legenda
+PASS EXP2024_07_01 · material local válido e cartaz sem interação/legenda
+PASS EXP2024_05_01 · material local válido e cartaz sem interação/legenda
+PASS EXP2024_06_01 · material local válido e cartaz sem interação/legenda
+PASS Cobertura e parede externa fecham a nova sala
+PASS Caminhada com colisões até 51, -18 → (51.00, 0.00, -18.24)
+PASS Caminhada com colisões até 57, -18 → (56.76, 0.00, -18.01)
+PASS Caminhada com colisões até 57, -8 → (56.99, 0.00, -8.22)
+PASS Caminhada com colisões até 51, -8 → (51.22, 0.00, -8.01)
+PASS Percurso atravessa Experience 2024 e chega a Brasil em Cena

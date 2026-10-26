@@ -1,0 +1,7 @@
+PASS Conferência manual pela interface nativa da Unity
+E: abriu o cartaz Fantasía.
+Botão AMPLIAR IMAGEM: abriu a visualização ampliada.
+Botão +: passou de 1,0 para 1,5, com rolagem e proporções preservadas.
+Botão Voltar às informações: retornou ao conteúdo.
+Botão Fechar: encerrou a interface e restaurou o retículo e o comando de interação.
+Clique direto na miniatura: ampliou a imagem, conferido após recompilação. Console: zero erros e zero avisos de compilação na conferência final; apenas informação do URP sobre redução automática do atlas de sombras.

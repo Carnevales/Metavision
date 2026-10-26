@@ -1,0 +1,6 @@
+PASS · Teste no Play Mode: três textos completos, abertura, bloqueio temporário e fechamento
+PASS O que é o Maracannes? · 1057 caracteres
+PASS Maracannes 1 — A origem do festival · 560 caracteres
+PASS Maracannes 3 — Uma nova fase · 537 caracteres
+PASS 43 cartazes preservados sem interação
+PASS Verificação visual: E abre, rolagem mostra último parágrafo, Esc e botão Fechar encerram a leitura.

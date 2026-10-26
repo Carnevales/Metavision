@@ -21,7 +21,7 @@ namespace TeatroSESI {
  static Transform Label(string name,string text,Vector3 p,float w,float h,Transform parent=null){var t=new GameObject(name).transform;t.SetParent(parent?parent:finish,false);var tm=t.gameObject.AddComponent<TextMesh>();tm.font=Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");t.gameObject.AddComponent<MuseumTextDepth>().depthShader=Shader.Find("TeatroSESI/Texto com profundidade");Fit(tm,text,p,w,h);return t;}
  [MenuItem("Teatro SESI/Museu/Polir hall e sinalização")]
  public static void Apply(){
-  scene=SceneManager.GetSceneByPath(B+"Scenes/Teatro_Centro_SESI.unity");if(!scene.isLoaded)throw new InvalidOperationException("Abra a cena do teatro antes de polir.");
+  scene=SceneManager.GetSceneByPath(B+"Scenes/Teatro.unity");if(!scene.isLoaded)throw new InvalidOperationException("Abra a cena do teatro antes de polir.");
   SceneManager.SetActiveScene(scene);if(!File.Exists(B+"Scenes/Teatro/Antes_Polimento.unity"))EditorSceneManager.SaveScene(scene,B+"Scenes/Teatro/Antes_Polimento.unity",true);
   var museum=Find("Museu_Interativo_SESI");var old=museum.Find("Acabamento_Hall");if(old)UnityEngine.Object.DestroyImmediate(old.gameObject);
   var obj=new GameObject("Acabamento_Hall");SceneManager.MoveGameObjectToScene(obj,scene);finish=obj.transform;finish.SetParent(museum,false);
@@ -81,3 +81,4 @@ namespace TeatroSESI {
  public static void Capture(string n,Vector3 p,Vector3 target){var g=new GameObject("Captura temporária");var c=g.AddComponent<Camera>();c.transform.position=p;c.transform.LookAt(target);c.fieldOfView=68;c.nearClipPlane=.05f;c.clearFlags=CameraClearFlags.SolidColor;c.backgroundColor=Color.gray;var rt=new RenderTexture(1600,1000,24);var previous=RenderTexture.active;try{c.targetTexture=rt;c.Render();RenderTexture.active=rt;var texture=new Texture2D(1600,1000,TextureFormat.RGB24,false);texture.ReadPixels(new Rect(0,0,1600,1000),0,0);texture.Apply();File.WriteAllBytes(B+"Lighting/"+n+".png",texture.EncodeToPNG());UnityEngine.Object.DestroyImmediate(texture);}finally{RenderTexture.active=previous;UnityEngine.Object.DestroyImmediate(g);UnityEngine.Object.DestroyImmediate(rt);}}
 }
 }
+

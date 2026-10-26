@@ -1,0 +1,7 @@
+PASS · Teste real no Play Mode: teatro → acervo → teatro
+PASS Destino Teatro.unity disponível no build
+PASS Ingresso emitido antes da visita ao acervo
+PASS Porta de entrada carrega o acervo
+PASS Porta de saída retorna à cena Teatro
+PASS Um visitante, ingresso preservado, controles ativos e interface fechada
+PASS Retorno em posição segura no saguão: (12.00, 0.00, -25.80)

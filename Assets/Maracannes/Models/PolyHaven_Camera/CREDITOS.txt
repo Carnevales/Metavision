@@ -1,0 +1,7 @@
+Vintage Video Camera — Poly Haven
+Fonte: https://polyhaven.com/a/vintage_video_camera
+Licença: CC0 1.0, https://polyhaven.com/license
+Modelo/fotografia: Jenelle van Heerden; texturas: James Ray Cock.
+FBX: 666044 bytes; aproximadamente 19000 triângulos; diffuse 1K.
+Arquivos baixados do endpoint oficial da API e MD5 conferido.
+Usado como objeto cenográfico genérico; não é apresentado como equipamento histórico do Maracannes.

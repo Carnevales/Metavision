@@ -54,6 +54,7 @@ public sealed class VisitaCentroSESI : MonoBehaviour {
   if(verificar&&visitaGuiada){if(Vector3.Distance(anterior,transform.position)<.003f)parado+=Time.deltaTime;else parado=0;if(parado>6){visitaGuiada=false;Concluir(false);}}
   anterior=transform.position;
  }
+ public void ResetFallVelocity(){queda=-2;}
  void Concluir(bool passou){
   if(!verificar)return;
   File.WriteAllText("Assets/Teatro_Centro_SESI/References/percurso-runtime.txt",(passou?"PASS":"FAIL")+" — CharacterController percorreu "+ponto+"/"+percurso.Length+" pontos.\n"+string.Join("\n",etapas)+"\nPosição final: "+transform.position+"\nTeste com colisões reais, gravidade e degraus, sem teletransporte entre pontos.");
@@ -70,3 +71,4 @@ public sealed class VisitaCentroSESI : MonoBehaviour {
  }
 }
 }
+

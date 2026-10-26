@@ -9,6 +9,10 @@ public sealed class MuseumExperience : MonoBehaviour {
  public bool ticketIssued, ticketValidated;
  public int issuedCount;
  public float doorSeconds=1.2f;
+ public bool ExpandedPhoto {get;private set;}
+ Vector2 photoScroll;float photoZoom=1;
+ public void OpenPhoto(){if(Active&&Active.image){ExpandedPhoto=true;photoZoom=1;photoScroll=Vector2.zero;}}
+ public void ClosePhoto(){ExpandedPhoto=false;}
  public bool Paused {get; private set;}
  public MuseumPoint Active {get; private set;}
  public MuseumPoint Nearby {get; private set;}
@@ -17,27 +21,28 @@ public sealed class MuseumExperience : MonoBehaviour {
  public bool BlockInput => Paused||Active||AccessDenied;
  public float DoorProgress {get; private set;}
  public string Message {get; private set;}
- float messageUntil;
+ float messageUntil;Vector2 exhibitScroll;
  int lastKeyFrame=-1;
  GUIStyle heading,body,small,button,badge,centerHeading,centerBody,centerSmall,centerBadge;
  Texture2D background,accent,card;
  void Start(){visitor=GetComponent<VisitaCentroSESI>();Close();}
  void Update(){
+  var acervo=GetComponent<Maracannes.AcervoTravel>();if(acervo&&acervo.InAcervo){RefreshNearby();return;}
   var k=Keyboard.current;
   if(k!=null&&k.escapeKey.wasPressedThisFrame)HandleKey(KeyCode.Escape);
   RefreshNearby();
   if(k!=null&&k.eKey.wasPressedThisFrame)HandleKey(KeyCode.E);
   if(ticketValidated&&DoorProgress<1){DoorProgress=Mathf.Min(1,DoorProgress+Time.deltaTime/doorSeconds);float eased=Mathf.SmoothStep(0,1,DoorProgress);for(int i=0;i<doorLeaves.Length;i++)if(doorLeaves[i])doorLeaves[i].localRotation=Quaternion.Euler(0,(i==0?-82:82)*eased,0);if(DoorProgress>=.98f)gateBlocker.enabled=false;}
  }
- void HandleKey(KeyCode key){if(lastKeyFrame==Time.frameCount)return;lastKeyFrame=Time.frameCount;if(key==KeyCode.Escape){if(Active||AccessDenied)Close();else{Paused=!Paused;SetCursor();}}else if(key==KeyCode.E&&!BlockInput){RefreshNearby();if(Nearby)Interact(Nearby);}}
+ void HandleKey(KeyCode key){if(lastKeyFrame==Time.frameCount)return;lastKeyFrame=Time.frameCount;if(key==KeyCode.Escape){if(ExpandedPhoto)ClosePhoto();else if(Active||AccessDenied)Close();else{Paused=!Paused;SetCursor();}}else if(key==KeyCode.E&&!BlockInput){RefreshNearby();if(Nearby)Interact(Nearby);}}
  public void RefreshNearby(){Nearby=null;float best=float.MaxValue;if(points==null)return;foreach(var p in points){if(!p||!p.gameObject.activeInHierarchy)continue;var delta=p.transform.position-transform.position;delta.y=0;float d=delta.magnitude;if(d<p.radius&&d<best){Nearby=p;best=d;}}}
  public bool Interact(MuseumPoint point){
   RefreshNearby();if(BlockInput||point!=Nearby)return false;
   if(point.action==MuseumAction.Gate){if(!ticketIssued){AccessDenied=true;SetCursor();return false;}ticketValidated=true;Toast("Ingresso validado. Bem-vindo ao teatro!");return true;}
-  Active=point;SetCursor();return true;
+  exhibitScroll=Vector2.zero;Active=point;SetCursor();return true;
  }
  public bool IssueTicket(){if(!Active||Active.action!=MuseumAction.Ticket||ticketIssued)return false;ticketIssued=true;GuidingToTicket=false;issuedCount++;Toast("Ingresso emitido com sucesso!");return true;}
- public void Close(){Active=null;AccessDenied=false;Paused=false;SetCursor();}
+ public void Close(){ExpandedPhoto=false;Active=null;AccessDenied=false;Paused=false;SetCursor();}
  public void GuideToTicket(){Close();GuidingToTicket=true;}
  public void Resume(){Paused=false;SetCursor();}
  void SetCursor(){Cursor.lockState=BlockInput?CursorLockMode.None:CursorLockMode.Locked;Cursor.visible=BlockInput;}
@@ -65,8 +70,8 @@ public sealed class MuseumExperience : MonoBehaviour {
   if(GUI.Button(new Rect(610,792,380,42),"Fechar",button))Close();
  }
  void DrawExhibit(){Sheet(Active.title);bool pic=Active.image;float textX=pic?825:315;float textWidth=pic?490:970;
-  if(pic){DrawPhoto(new Rect(285,330,500,350));GUI.Label(new Rect(285,700,500,70),Active.credit,small);}
-  var exhibitBody=new GUIStyle(body){fontSize=21};GUI.Label(new Rect(textX,330,textWidth,300),Active.body,exhibitBody);GUI.Label(new Rect(textX,640,textWidth,130),"Fonte: "+Active.source,small);
+  if(pic){DrawPhoto(new Rect(285,330,500,350));if(GUI.Button(new Rect(285,685,500,35),"AMPLIAR IMAGEM",button))OpenPhoto();GUI.Label(new Rect(285,730,500,48),Active.credit,small);}
+  var exhibitBody=new GUIStyle(body){fontSize=21};if(!pic){float contentHeight=Mathf.Max(365,exhibitBody.CalcHeight(new GUIContent(Active.body),930));exhibitScroll=GUI.BeginScrollView(new Rect(315,320,970,390),exhibitScroll,new Rect(0,0,940,contentHeight));GUI.Label(new Rect(0,0,930,contentHeight),Active.body,exhibitBody);GUI.EndScrollView();GUI.Label(new Rect(315,730,970,45),"Fonte: "+Active.source,small);}else{GUI.Label(new Rect(textX,330,textWidth,300),Active.body,exhibitBody);GUI.Label(new Rect(textX,640,textWidth,130),"Fonte: "+Active.source,small);}
   if(GUI.Button(new Rect(620,790,360,55),"Fechar",button))Close();
  }
  void DrawPhoto(Rect area){
@@ -74,7 +79,19 @@ public sealed class MuseumExperience : MonoBehaviour {
   uv.x=Mathf.Clamp01(uv.x);uv.y=Mathf.Clamp01(uv.y);uv.width=Mathf.Min(uv.width,1-uv.x);uv.height=Mathf.Min(uv.height,1-uv.y);
   float aspect=Active.image.width*uv.width/(Active.image.height*Mathf.Max(.001f,uv.height));float w=area.width-16,h=area.height-16;
   if(w/h>aspect)w=h*aspect;else h=w/aspect;
-  GUI.DrawTextureWithTexCoords(new Rect(area.center.x-w*.5f,area.center.y-h*.5f,w,h),Active.image,uv);
+  GUI.DrawTextureWithTexCoords(new Rect(area.center.x-w*.5f,area.center.y-h*.5f,w,h),Active.image,uv);if(GUI.Button(area,GUIContent.none,GUIStyle.none))OpenPhoto();
+ }
+ void DrawExpandedPhoto(){
+  Sheet(Active.title);var area=new Rect(285,320,1030,395);GUI.DrawTexture(area,background);
+  Rect uv=Active.photoRegion;if(uv.width<=0||uv.height<=0)uv=new Rect(0,0,1,1);
+  float aspect=Active.image.width*uv.width/(Active.image.height*uv.height),h=365*photoZoom,w=h*aspect;
+  var content=new Rect(0,0,Mathf.Max(1000,w+24),Mathf.Max(365,h+24));
+  photoScroll=GUI.BeginScrollView(area,photoScroll,content);GUI.DrawTextureWithTexCoords(new Rect((content.width-w)/2,12,w,h),Active.image,uv);GUI.EndScrollView();
+  GUI.Label(new Rect(285,724,1030,35),"Arraste as barras para explorar a imagem completa · Proporção original preservada",centerSmall);
+  if(GUI.Button(new Rect(330,780,110,55),"−",button))photoZoom=Mathf.Max(.5f,photoZoom-.5f);
+  GUI.Label(new Rect(450,790,130,40),photoZoom.ToString("F1")+"×",centerSmall);
+  if(GUI.Button(new Rect(590,780,110,55),"+",button))photoZoom=Mathf.Min(6,photoZoom+.5f);
+  if(GUI.Button(new Rect(800,780,470,55),"Voltar às informações",button))ClosePhoto();
  }
  void DrawGuidance(){
   MuseumPoint ticket=null;foreach(var p in points)if(p&&p.action==MuseumAction.Ticket){ticket=p;break;}if(!ticket)return;
@@ -83,17 +100,20 @@ public sealed class MuseumExperience : MonoBehaviour {
   GUI.DrawTexture(new Rect(380,755,840,66),background);GUI.Label(new Rect(400,767,800,44),"BILHETERIA · "+direction+" · "+delta.magnitude.ToString("F0")+" m",centerBadge);
  }
  void OnGUI(){
-  if(Event.current.type==EventType.KeyDown&&(Event.current.keyCode==KeyCode.E||Event.current.keyCode==KeyCode.Escape)){HandleKey(Event.current.keyCode);Event.current.Use();}
+  var sceneDoor=GetComponent<Maracannes.AcervoTravel>();if(sceneDoor&&sceneDoor.Nearby)return;if(sceneDoor&&sceneDoor.InAcervo&&!Active)return;
+  if(!(sceneDoor&&sceneDoor.InAcervo)&&Event.current.type==EventType.KeyDown&&(Event.current.keyCode==KeyCode.E||Event.current.keyCode==KeyCode.Escape)){HandleKey(Event.current.keyCode);Event.current.Use();}
   Styles();if(centerHeading==null){centerHeading=Center(heading);centerBody=Center(body);centerSmall=Center(small);centerBadge=Center(badge);}
   // Escala uniforme e área segura: textos mantêm proporção em 16:9, 16:10 e 4:3.
   float scale=Mathf.Min(Screen.width/1600f,Screen.height/1000f);var old=GUI.matrix;GUI.matrix=Matrix4x4.TRS(new Vector3((Screen.width-1600*scale)*.5f,(Screen.height-1000*scale)*.5f,0),Quaternion.identity,Vector3.one*scale);
+  if(sceneDoor&&sceneDoor.InAcervo){DrawExhibit();GUI.matrix=old;return;}
   GUI.DrawTexture(new Rect(0,0,1600,72),background);GUI.Label(new Rect(28,16,950,42),"FIRJAN SESI CENTRO  /  MUSEU VIRTUAL",badge);GUI.Label(new Rect(1095,16,475,42),ticketValidated?"INGRESSO VALIDADO":ticketIssued?"INGRESSO DIGITAL EMITIDO":"VISITANTE · SEM INGRESSO",centerBadge);
   if(!BlockInput){GUI.Label(new Rect(785,480,30,40),"+",centerBadge);GUI.DrawTexture(new Rect(350,930,900,50),background);GUI.Label(new Rect(365,937,870,35),"WASD · caminhar    Mouse · olhar    E · interagir    Esc · pausa",centerBadge);if(GuidingToTicket)DrawGuidance();if(Nearby){GUI.DrawTexture(new Rect(470,840,660,62),background);GUI.Label(new Rect(495,849,610,42),Nearby.Prompt,centerBadge);}}
   if(Time.unscaledTime<messageUntil&&!BlockInput){GUI.DrawTexture(new Rect(360,95,880,65),background);GUI.Label(new Rect(380,105,840,45),Message,centerBadge);}
   if(Paused){Sheet("VISITA EM PAUSA");GUI.Label(new Rect(355,370,890,150),"Explore a bilheteria e os painéis.\nO ingresso é fictício, gratuito e válido apenas nesta visita.",centerBody);if(GUI.Button(new Rect(570,660,460,64),"Continuar visita",button))Resume();}
-  else if(AccessDenied)DrawAccess();else if(Active){if(Active.action==MuseumAction.Ticket)DrawTicket();else DrawExhibit();}
+  else if(AccessDenied)DrawAccess();else if(Active){if(Active.action==MuseumAction.Ticket)DrawTicket();else if(ExpandedPhoto)DrawExpandedPhoto();else DrawExhibit();}
   GUI.matrix=old;
  }
  void OnDestroy(){Cursor.lockState=CursorLockMode.None;Cursor.visible=true;foreach(var tex in new[]{background,accent,card})if(tex)Destroy(tex);}
 }
 }
+

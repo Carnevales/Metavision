@@ -1,0 +1,49 @@
+PASS — percurso contínuo real executado no Editor, incluindo retorno ao teatro e palco. Validação do acervo registrada separadamente em runtime.txt.
+PASS Controlador e interface existentes reutilizados
+PASS Visitante começa no exterior
+PASS Caminhada com colisões até 0, -27 → (0.00, 0.00, -27.19)
+PASS Caminhada com colisões até 0, -22 → (0.00, 0.00, -22.20)
+PASS Caminhada com colisões até 0, -16,6 → (0.00, 1.16, -16.80)
+PASS Sem ingresso: aviso de acesso e bloqueio preservados
+PASS Caminhada com colisões até 0, -22 → (0.00, 0.00, -21.76)
+PASS Caminhada com colisões até 0, -26,2 → (0.00, 0.00, -25.98)
+PASS Caminhada com colisões até -2,4, -25,9 → (-2.20, 0.00, -25.91)
+PASS Bilheteria existente abre
+PASS Ingresso único emitido e duplicação impedida
+PASS Caminhada com colisões até 0, -26,2 → (-0.19, 0.00, -26.17)
+PASS Caminhada com colisões até 2,5, -24,3 → (2.31, 0.00, -24.43)
+PASS Caminhada com colisões até 5, -24,3 → (4.81, 0.00, -24.31)
+PASS Caminhada com colisões até 5, -23,8 → (4.92, 0.00, -24.01)
+PASS Caminhada com colisões até 12, -23,8 → (11.77, 0.00, -23.81)
+PASS Caminhada com colisões até 12, -25,8 → (11.97, 0.00, -25.57)
+PASS Caminhada com colisões até 18, -25,8 → (17.81, 0.00, -25.79)
+PASS Caminhada com colisões até 18, -30 → (17.99, 0.00, -29.81)
+PASS Parede da exposição impede atravessamento
+PASS Caminhada com colisões até 18, -25,8 → (18.00, 0.00, -25.98)
+PASS Caminhada com colisões até 28, -25,8 → (27.78, 0.00, -25.80)
+PASS Caminhada com colisões até 35, -25,8 → (34.81, 0.00, -25.80)
+PASS Caminhada com colisões até 36, -17 → (35.97, 0.00, -17.24)
+PASS Caminhada com colisões até 43, -15 → (42.79, 0.00, -15.07)
+PASS Caminhada com colisões até 43, -9,5 → (42.99, 0.00, -9.70)
+PASS Caminhada com colisões até 43, -7 → (43.00, 0.00, -7.22)
+PASS Caminhada com colisões até 35, -7 → (35.21, 0.00, -7.01)
+PASS Caminhada com colisões até 35, -4 → (35.02, 0.00, -4.23)
+PASS Caminhada com colisões até 29, -4 → (29.23, 0.00, -4.01)
+PASS Caminhada com colisões até 29, -15 → (29.01, 0.00, -14.77)
+PASS Caminhada com colisões até 24, -15 → (24.18, 0.00, -14.99)
+PASS Caminhada com colisões até 24, -20 → (24.01, 0.00, -19.76)
+PASS Caminhada com colisões até 18, -20 → (18.18, 0.00, -19.99)
+PASS Caminhada com colisões até 18, -25,8 → (18.01, 0.00, -25.59)
+PASS Caminhada com colisões até 12, -25,8 → (12.20, 0.00, -25.79)
+PASS Caminhada com colisões até 12, -23,8 → (12.02, 0.00, -24.04)
+PASS Caminhada com colisões até 5, -23,8 → (5.22, 0.00, -23.81)
+PASS Caminhada com colisões até 5, -24,3 → (5.09, 0.00, -24.09)
+PASS Caminhada com colisões até 2,5, -24,3 → (2.73, 0.00, -24.28)
+PASS Caminhada com colisões até 0, -22 → (0.14, 0.00, -22.12)
+PASS Caminhada com colisões até 0, -16,6 → (0.01, 1.15, -16.81)
+PASS Ingresso validado na entrada original
+PASS Porta original abre
+PASS Caminhada com colisões até 0, -8 → (0.00, 0.60, -8.22)
+PASS Caminhada com colisões até 0, -4 → (0.00, 0.00, -4.21)
+PASS Caminhada com colisões até 0, 0 → (0.00, 1.08, -0.19)
+PASS Palco original acessível

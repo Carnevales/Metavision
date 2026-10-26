@@ -1,0 +1,3 @@
+Limites: Center: (3.36, 9.00, -13.18), Extents: (16.60, 12.00, 27.78)
+5 BoxColliders de segurança; pisos conferidos: 5
+Resgate abaixo de -0,5 m para último piso seguro; controlador existente preservado.

@@ -1,0 +1,7 @@
+PASS · Play Mode: perímetro e recuperação de queda · teatro
+PASS Barreira 0 contém CharacterController: (-12.79, 0.05, -13.18)
+PASS Barreira 1 contém CharacterController: (19.51, 0.05, -13.18)
+PASS Barreira 2 contém CharacterController: (3.36, 0.05, -40.50)
+PASS Barreira 3 contém CharacterController: (3.36, 0.05, 14.15)
+PASS Queda simulada abaixo do mapa retorna ao piso seguro: (0.00, 0.00, -33.00)
+PASS Quatro barreiras sólidas e laje inferior ativas

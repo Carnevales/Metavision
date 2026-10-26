@@ -1,0 +1,8 @@
+PASS Verificação final da cena salva
+Scripts ausentes: 0
+Materiais/shaders ausentes: 0
+Câmeras na ala nova: 0
+Salas: 4
+Materiais expostos: 43
+Build Settings: Assets/Scenes/SampleScene.unity, Assets/Teatro_Centro_SESI/Scenes/Teatro_Centro_SESI.unity, Assets/Maracannes/Scenes/Maracannes_Exposicao.unity
+Ajuste final apenas do material do piso da sala 4; colisores e interações preservados.

@@ -10,7 +10,7 @@ namespace TeatroSESI {
  static CuriosityPhotos(){EditorApplication.delayCall+=()=>{if(File.Exists(B+"References/photos.request")){AssetDatabase.DeleteAsset(B+"References/photos.request");Apply();}};}
  [MenuItem("Teatro SESI/Museu/Atualizar fotografias das curiosidades")]
  public static void Apply(){
-  var scene=SceneManager.GetSceneByPath(B+"Scenes/Teatro_Centro_SESI.unity");if(!scene.isLoaded)throw new System.InvalidOperationException("Abra a cena existente do teatro.");
+  var scene=SceneManager.GetSceneByPath(B+"Scenes/Teatro.unity");if(!scene.isLoaded)throw new System.InvalidOperationException("Abra a cena existente do teatro.");
   foreach(string file in new[]{"IMG_8292 1.png","IMG_8294 1.png"}){var importer=(TextureImporter)AssetImporter.GetAtPath(B+"References/"+file);if(importer.maxTextureSize<4096||importer.filterMode!=FilterMode.Trilinear||importer.npotScale!=TextureImporterNPOTScale.None){importer.npotScale=TextureImporterNPOTScale.None;importer.maxTextureSize=4096;importer.filterMode=FilterMode.Trilinear;importer.anisoLevel=4;importer.textureCompression=TextureImporterCompression.CompressedHQ;importer.SaveAndReimport();}}
   var points=scene.GetRootGameObjects().SelectMany(g=>g.GetComponentsInChildren<MuseumPoint>(true)).Where(p=>p.action==MuseumAction.Exhibit).ToArray();
   Set(points,"01","IMG_8294 1.png",new Rect(0,0,1,1),"Fachada do teatro · foto fornecida pelo usuário.\nRegistro contemporâneo.");
@@ -24,3 +24,4 @@ namespace TeatroSESI {
  static void Set(MuseumPoint[] points,string id,string file,Rect region,string credit){var p=points.First(p=>p.name.StartsWith("Interacao_"+id)||p.title.StartsWith(id));p.image=AssetDatabase.LoadAssetAtPath<Texture2D>(B+"References/"+file);p.photoRegion=region;p.credit=credit;EditorUtility.SetDirty(p);}
 }
 }
+

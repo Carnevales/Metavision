@@ -1,0 +1,141 @@
+FAIL Teste real no Editor · 103,5 segundos. Percurso contínuo; inspeção individual dos cartazes com reposicionamento explícito de teste.
+PASS Controlador e interface existentes reutilizados
+PASS Visitante começa no exterior
+PASS Caminhada com colisões até 0, -27 → (0.00, 0.00, -27.19)
+PASS Caminhada com colisões até 0, -22 → (0.00, 0.00, -22.20)
+PASS Caminhada com colisões até 0, -16,6 → (0.00, 1.16, -16.80)
+PASS Sem ingresso: aviso de acesso e bloqueio preservados
+PASS Caminhada com colisões até 0, -22 → (0.00, 0.00, -21.76)
+PASS Caminhada com colisões até 0, -26,2 → (0.00, 0.00, -25.98)
+PASS Caminhada com colisões até -2,4, -25,9 → (-2.20, 0.00, -25.91)
+PASS Bilheteria existente abre
+PASS Ingresso único emitido e duplicação impedida
+PASS Caminhada com colisões até 0, -26,2 → (-0.19, 0.00, -26.17)
+PASS Caminhada com colisões até 2,5, -24,3 → (2.31, 0.00, -24.43)
+PASS Caminhada com colisões até 5, -24,3 → (4.81, 0.00, -24.31)
+PASS Caminhada com colisões até 5, -23,8 → (4.92, 0.00, -24.01)
+PASS Caminhada com colisões até 12, -23,8 → (11.77, 0.00, -23.81)
+PASS Caminhada com colisões até 12, -25,8 → (11.97, 0.00, -25.57)
+PASS Caminhada com colisões até 18, -25,8 → (17.81, 0.00, -25.79)
+PASS Caminhada com colisões até 18, -30 → (17.99, 0.00, -29.81)
+PASS Parede da exposição impede atravessamento
+PASS Caminhada com colisões até 18, -25,8 → (18.00, 0.00, -25.98)
+PASS Caminhada com colisões até 28, -25,8 → (27.78, 0.00, -25.80)
+PASS Caminhada com colisões até 35, -25,8 → (34.81, 0.00, -25.80)
+PASS Caminhada com colisões até 36, -17 → (35.97, 0.00, -17.24)
+PASS Caminhada com colisões até 43, -15 → (42.79, 0.00, -15.07)
+PASS Caminhada com colisões até 43, -9,5 → (42.99, 0.00, -9.70)
+PASS Caminhada com colisões até 43, -7 → (43.00, 0.00, -7.22)
+PASS Caminhada com colisões até 35, -7 → (35.21, 0.00, -7.01)
+PASS Caminhada com colisões até 35, -4 → (35.02, 0.00, -4.23)
+PASS Caminhada com colisões até 29, -4 → (29.23, 0.00, -4.01)
+PASS Caminhada com colisões até 29, -15 → (29.01, 0.00, -14.77)
+PASS Caminhada com colisões até 24, -15 → (24.18, 0.00, -14.99)
+PASS Caminhada com colisões até 24, -20 → (24.01, 0.00, -19.76)
+PASS Caminhada com colisões até 18, -20 → (18.18, 0.00, -19.99)
+PASS Caminhada com colisões até 18, -25,8 → (18.01, 0.00, -25.59)
+PASS Caminhada com colisões até 12, -25,8 → (12.20, 0.00, -25.79)
+PASS Caminhada com colisões até 12, -23,8 → (12.02, 0.00, -24.04)
+PASS Caminhada com colisões até 5, -23,8 → (5.22, 0.00, -23.81)
+PASS Caminhada com colisões até 5, -24,3 → (5.09, 0.00, -24.09)
+PASS Caminhada com colisões até 2,5, -24,3 → (2.73, 0.00, -24.28)
+PASS Caminhada com colisões até 0, -22 → (0.14, 0.00, -22.12)
+PASS Caminhada com colisões até 0, -16,6 → (0.01, 1.15, -16.81)
+PASS Ingresso validado na entrada original
+PASS Porta original abre
+PASS Caminhada com colisões até 0, -8 → (0.00, 0.60, -8.22)
+PASS Caminhada com colisões até 0, -4 → (0.00, 0.00, -4.21)
+PASS Caminhada com colisões até 0, 0 → (0.00, 1.08, -0.19)
+PASS Palco original acessível
+PASS Painel histórico abre: O que é o Maracannes?
+PASS Painel histórico abre: Maracannes 1 · A origem
+PASS Painel histórico abre: Maracannes 3 · Uma nova fase
+PASS Painel histórico abre: Arte, criatividade e protagonismo
+PASS Painel histórico abre: Fantasía
+PASS Painel histórico abre: La Fiesta del Amor
+PASS Painel histórico abre: Rumores
+PASS Painel histórico abre: Solo Un Vestido
+PASS Painel histórico abre: Tu Atuendo Favorito
+PASS Painel histórico abre: Vestido de Coraje
+PASS Painel histórico abre: Clueless
+PASS Painel histórico abre: Minha Mãe é uma Peça — Filme 3
+PASS Painel histórico abre: White Chicks
+PASS Painel histórico abre: As Branquelas
+PASS Painel histórico abre: Suits
+FAIL Painel histórico abre: The Office
+FAIL Painel histórico abre: Consulta às Nove
+FAIL Painel histórico abre: O Gambito da Vida
+FAIL Painel histórico abre: O Discurso de Emily
+FAIL Painel histórico abre: Fobias
+FAIL Painel histórico abre: Margens
+FAIL Painel histórico abre: HIV — O terror de José
+FAIL Painel histórico abre: Marte
+PASS Painel histórico abre: Entorpecidos
+PASS Painel histórico abre: Caiu na Rede, É Peixe!
+PASS Painel histórico abre: Oduvaldo e Iracema — uma história de amor
+PASS Painel histórico abre: Love at First Sight
+PASS Painel histórico abre: Forrest Gump
+PASS Painel histórico abre: Grown Ups
+PASS Painel histórico abre: Vai que Cola
+PASS Painel histórico abre: Escapismo — cartaz em cores
+PASS Painel histórico abre: Escapismo — cartaz em preto e branco
+PASS Painel histórico abre: Mean Girls
+PASS Painel histórico abre: Chaves
+FAIL Painel histórico abre: Carrossel 2 — O Sumiço de Maria Joaquina
+FAIL Painel histórico abre: Auto da Compadecida
+FAIL Painel histórico abre: The Watching Entity
+FAIL Painel histórico abre: Página 404
+PASS Painel histórico abre: Moxie!
+PASS Painel histórico abre: O Auto da Compadecida
+PASS Painel histórico abre: Tropa de Elite
+PASS Painel histórico abre: Mean Girls
+PASS Painel histórico abre: Tô Ryca!
+PASS Painel histórico abre: Jumanji — The Next Level
+PASS Painel histórico abre: Capa do filme português
+PASS Painel histórico abre: Notas de uma Lembrança
+PASS Painel histórico abre: Material panorâmico — Group 6
+PASS 43 materiais em exatamente quatro salas
+FAIL Abre cartaz por proximidade: S2_001
+FAIL Abre cartaz por proximidade: S2_002
+FAIL Abre cartaz por proximidade: S2_003
+FAIL Abre cartaz por proximidade: S2_004
+FAIL Abre cartaz por proximidade: S2_005
+FAIL Abre cartaz por proximidade: S2_006
+FAIL Abre cartaz por proximidade: S2_008
+FAIL Abre cartaz por proximidade: S2_009
+FAIL Abre cartaz por proximidade: S2_010
+FAIL Abre cartaz por proximidade: S2_011
+FAIL Abre cartaz por proximidade: S2_012
+FAIL Abre cartaz por proximidade: S2_013
+FAIL Abre cartaz por proximidade: S2_014
+FAIL Abre cartaz por proximidade: S2_015
+FAIL Abre cartaz por proximidade: S2_016
+FAIL Abre cartaz por proximidade: S2_017
+FAIL Abre cartaz por proximidade: S2_018
+FAIL Abre cartaz por proximidade: S2_019
+FAIL Abre cartaz por proximidade: S2_020
+FAIL Abre cartaz por proximidade: S2_021
+FAIL Abre cartaz por proximidade: S2_022
+FAIL Abre cartaz por proximidade: S2_024
+FAIL Abre cartaz por proximidade: S2_025
+FAIL Abre cartaz por proximidade: S2_026
+FAIL Abre cartaz por proximidade: S2_027
+FAIL Abre cartaz por proximidade: S2_028
+FAIL Abre cartaz por proximidade: S2_030
+FAIL Abre cartaz por proximidade: S2_031
+FAIL Abre cartaz por proximidade: S2_033
+FAIL Abre cartaz por proximidade: S2_034
+FAIL Abre cartaz por proximidade: S3_000
+FAIL Abre cartaz por proximidade: S3_001
+FAIL Abre cartaz por proximidade: S3_002
+FAIL Abre cartaz por proximidade: S3_003
+FAIL Abre cartaz por proximidade: S3_004
+FAIL Abre cartaz por proximidade: S3_005
+FAIL Abre cartaz por proximidade: S3_006
+FAIL Abre cartaz por proximidade: S3_007
+FAIL Abre cartaz por proximidade: S3_008
+FAIL Abre cartaz por proximidade: S3_009
+FAIL Abre cartaz por proximidade: S4_000
+FAIL Abre cartaz por proximidade: S4_001
+FAIL Abre cartaz por proximidade: S4_002
+MEDIÇÃO Editor: 38,7 FPS médios; p95 33,3 ms; 3818 quadros. Não é benchmark de build.

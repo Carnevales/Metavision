@@ -17,7 +17,7 @@ namespace TeatroSESI {
  static Material Mat(string name,Color color,float smooth=0){string p=B+"Materials/"+name+".mat";var m=AssetDatabase.LoadAssetAtPath<Material>(p);if(!m){m=new Material(Shader.Find("Universal Render Pipeline/Lit"));AssetDatabase.CreateAsset(m,p);}m.color=color;m.SetFloat("_Smoothness",smooth);m.enableInstancing=true;return m;}
  [MenuItem("Teatro SESI/Museu/Construir ou atualizar museu")]
  public static void Build(){
-  var scene=SceneManager.GetSceneByPath(B+"Scenes/Teatro_Centro_SESI.unity");if(!scene.isLoaded)scene=EditorSceneManager.OpenScene(B+"Scenes/Teatro_Centro_SESI.unity",OpenSceneMode.Additive);SceneManager.SetActiveScene(scene);
+  var scene=SceneManager.GetSceneByPath(B+"Scenes/Teatro.unity");if(!scene.isLoaded)scene=EditorSceneManager.OpenScene(B+"Scenes/Teatro.unity",OpenSceneMode.Additive);SceneManager.SetActiveScene(scene);
   if(!File.Exists(B+"Scenes/Teatro/Antes_Museu_Editor.unity"))EditorSceneManager.SaveScene(scene,B+"Scenes/Teatro/Antes_Museu_Editor.unity",true);
   var previous=scene.GetRootGameObjects().FirstOrDefault(g=>g.name=="Museu_Interativo_SESI");if(previous)UnityEngine.Object.DestroyImmediate(previous);root=new GameObject("Museu_Interativo_SESI").transform;
   var visitor=UnityEngine.Object.FindAnyObjectByType<VisitaCentroSESI>();if(!visitor)throw new InvalidOperationException("Controlador anterior ausente; não será duplicado.");
@@ -73,6 +73,7 @@ namespace TeatroSESI {
  static void Capture(Camera c,string p){var rt=new RenderTexture(1600,1000,24);var active=RenderTexture.active;c.targetTexture=rt;try{c.Render();RenderTexture.active=rt;var tex=new Texture2D(1600,1000,TextureFormat.RGB24,false);tex.ReadPixels(new Rect(0,0,1600,1000),0,0);tex.Apply();File.WriteAllBytes(p,tex.EncodeToPNG());UnityEngine.Object.DestroyImmediate(tex);}finally{c.targetTexture=null;RenderTexture.active=active;UnityEngine.Object.DestroyImmediate(rt);}AssetDatabase.Refresh();}
 }
 }
+
 
 
 

@@ -1,0 +1,53 @@
+PASS Exatamente quatro salas de exposição
+PASS Todos os 43 materiais expostos: 43
+Sala 2: 30 materiais
+Sala 3: 10 materiais
+Sala 4: 3 materiais
+PASS Materiais e shaders ausentes: 0
+Cenografia original + câmera Poly Haven CC0 (19k tri; textura 1k). Nenhum pacote de input/controlador adicionado.
+Cartazes: originais preservados; derivados PNG integrais, sem alteração de textos ou proporções.
+História: exclusivamente texto fornecido pelo usuário; sem datas de fundação inventadas.
+Teatro preservado. Duas paredes mantidas com render/colisor desabilitados e substituição local segmentada para o portal. Backup anterior disponível.
+ACERVO S2_001 → sala 2 · Fantasía
+ACERVO S2_002 → sala 2 · La Fiesta del Amor
+ACERVO S2_003 → sala 2 · Rumores
+ACERVO S2_004 → sala 2 · Solo Un Vestido
+ACERVO S2_005 → sala 2 · Tu Atuendo Favorito
+ACERVO S2_006 → sala 2 · Vestido de Coraje
+ACERVO S2_008 → sala 2 · Clueless
+ACERVO S2_009 → sala 2 · Minha Mãe é uma Peça — Filme 3
+ACERVO S2_010 → sala 2 · White Chicks
+ACERVO S2_011 → sala 2 · As Branquelas
+ACERVO S2_012 → sala 2 · Suits
+ACERVO S2_013 → sala 2 · The Office
+ACERVO S2_014 → sala 2 · Consulta às Nove
+ACERVO S2_015 → sala 2 · O Gambito da Vida
+ACERVO S2_016 → sala 2 · O Discurso de Emily
+ACERVO S2_017 → sala 2 · Fobias
+ACERVO S2_018 → sala 2 · Margens
+ACERVO S2_019 → sala 2 · HIV — O terror de José
+ACERVO S2_020 → sala 2 · Marte
+ACERVO S2_021 → sala 2 · Entorpecidos
+ACERVO S2_022 → sala 2 · Caiu na Rede, É Peixe!
+ACERVO S2_024 → sala 2 · Oduvaldo e Iracema — uma história de amor
+ACERVO S2_025 → sala 2 · Love at First Sight
+ACERVO S2_026 → sala 2 · Forrest Gump
+ACERVO S2_027 → sala 2 · Grown Ups
+ACERVO S2_028 → sala 2 · Vai que Cola
+ACERVO S2_030 → sala 2 · Escapismo — cartaz em cores
+ACERVO S2_031 → sala 2 · Escapismo — cartaz em preto e branco
+ACERVO S2_033 → sala 2 · Mean Girls
+ACERVO S2_034 → sala 2 · Chaves
+ACERVO S3_000 → sala 3 · Carrossel 2 — O Sumiço de Maria Joaquina
+ACERVO S3_001 → sala 3 · Auto da Compadecida
+ACERVO S3_002 → sala 3 · The Watching Entity
+ACERVO S3_003 → sala 3 · Página 404
+ACERVO S3_004 → sala 3 · Moxie!
+ACERVO S3_005 → sala 3 · O Auto da Compadecida
+ACERVO S3_006 → sala 3 · Tropa de Elite
+ACERVO S3_007 → sala 3 · Mean Girls
+ACERVO S3_008 → sala 3 · Tô Ryca!
+ACERVO S3_009 → sala 3 · Jumanji — The Next Level
+ACERVO S4_000 → sala 4 · Capa do filme português
+ACERVO S4_001 → sala 4 · Notas de uma Lembrança
+ACERVO S4_002 → sala 4 · Material panorâmico — Group 6

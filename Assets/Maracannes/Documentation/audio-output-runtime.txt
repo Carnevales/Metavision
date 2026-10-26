@@ -1,0 +1,7 @@
+PASS · Reprodução e sinal real de saída
+AudioListeners ativos: 1
+Música ativa: True
+Volume da fonte: 0,035
+Volume global: 1
+Pico na saída do AudioListener: 0,005669498
+Mute Editor: False

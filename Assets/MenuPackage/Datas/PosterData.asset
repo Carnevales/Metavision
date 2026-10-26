@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0d4b065a275413479db85680e937bbe, type: 3}
+  m_Name: PosterData
+  m_EditorClassIdentifier: Assembly-CSharp::PosterData
+  posters:
+  - image: {fileID: 6130563520586391227, guid: 1d9a2280a849bdf45851d0e658cc5d95, type: 3}
+    posterName: Cidade dos Homens
+    className: 'Turma: 984 '
+    url: https://youtu.be/QvP3JkWp5lw?si=7DaKOSkFb8Fc49I3
+  - image: {fileID: 1362398592, guid: 1d9a2280a849bdf45851d0e658cc5d95, type: 3}
+    posterName: Tudo Por Um Popstar
+    className: 'Turma: 985'
+    url: https://youtu.be/3gqEE5uVylc?si=INWBivZ5eTJF4NgI
+  - image: {fileID: -1109798251, guid: 1d9a2280a849bdf45851d0e658cc5d95, type: 3}
+    posterName: Tropa de Elite
+    className: 'Turma: 986'
+    url: https://youtu.be/hLGZCG97YH4?si=54I3VIW92qrotmjd
+  - image: {fileID: -1855543581, guid: 1d9a2280a849bdf45851d0e658cc5d95, type: 3}
+    posterName: Anjos da Lei
+    className: 'Turma: 987'
+    url: https://youtu.be/qcaKNOj6kQY?si=Q7Jee4D6jPNEddFS
+  - image: {fileID: 47413864, guid: 1d9a2280a849bdf45851d0e658cc5d95, type: 3}
+    posterName: Caos
+    className: 'Turma: 988'
+    url: https://youtu.be/APbSFjdt3r4?si=RLU-svEQ-uXqyWxf
+  - image: {fileID: -1936418842, guid: 1d9a2280a849bdf45851d0e658cc5d95, type: 3}
+    posterName: In Justice
+    className: 'Turma: 989'
+    url: https://youtu.be/F-xus_zK7gs?si=NRUMba9WlMOg-CIf
+  - image: {fileID: 7581941, guid: 1d9a2280a849bdf45851d0e658cc5d95, type: 3}
+    posterName: "Para Traz\xEA-la De Volta"
+    className: 'Turma: 990'
+    url: https://youtu.be/ORIx2YdRY4k?si=tCnXpsmgnmFL9b_k
+  - image: {fileID: 1294877918, guid: 1d9a2280a849bdf45851d0e658cc5d95, type: 3}
+    posterName: O Que o Tempo Levou
+    className: 'Turma: 991'
+    url: https://youtu.be/YL420SThdHU?si=kXrMIcn2hcJ0QBuK
+  - image: {fileID: 614996654, guid: 1d9a2280a849bdf45851d0e658cc5d95, type: 3}
+    posterName: "Press\xE1gio do Fim"
+    className: 'Turma: 992'
+    url: https://youtu.be/F4disuejZz8?si=mrM25SUum-k-sovS
+  - image: {fileID: -952774674, guid: 1d9a2280a849bdf45851d0e658cc5d95, type: 3}
+    posterName: Aquela Voz
+    className: 'Turma: 993'
+    url: https://youtu.be/EwyGtPZ2FVk?si=QSTq3vZZlkBruyMH
+  - image: {fileID: 1631979840, guid: 1d9a2280a849bdf45851d0e658cc5d95, type: 3}
+    posterName: Jaime Black
+    className: 'Turma: 994'
+    url: https://youtu.be/n3jRhvjJ9ow?si=pRBrCv_wrVO_kjwS
+  - image: {fileID: 1209115521, guid: 1d9a2280a849bdf45851d0e658cc5d95, type: 3}
+    posterName: Ruptura
+    className: 'Turma: 995'
+    url: https://youtu.be/H9RC76g5qkQ?si=6ZNZZlfUWnlHS3AW
+  - image: {fileID: 1597087160, guid: 1d9a2280a849bdf45851d0e658cc5d95, type: 3}
+    posterName: "Isso Daria Um \xD3timo Filme"
+    className: 'Turma: 996'
+    url: https://youtu.be/g-vhFCl9D5E?si=5dFpELxZWQQGWpfN
+  - image: {fileID: -1767653376, guid: 1d9a2280a849bdf45851d0e658cc5d95, type: 3}
+    posterName: Ponto Cego
+    className: 'Turma: 997'
+    url: https://youtu.be/7jbdbz6LBuw?si=qI03qYY8xGf5wRMo

@@ -1,0 +1,49 @@
+PASS Cenas independentes: Teatro_Centro_SESI e Maracannes_Acervo
+Salas: 4
+Cartazes preservados: 43
+MuseumPoints no acervo: 0
+Portas no acervo: 1
+Novas composições 3D: 36
+S2_001 · sala 2 · FANTASÍA
+S2_002 · sala 2 · La Fiesta del Amor
+S2_003 · sala 2 · RUMORES
+S2_004 · sala 2 · SOLO UN VESTIDO
+S2_005 · sala 2 · Tu Atuendo Favorito
+S2_006 · sala 2 · Vestido de Coraje
+S2_008 · sala 2 · CLUELESS
+S2_009 · sala 2 · MINHA MÃE É UMA PEÇA 3
+S2_010 · sala 2 · WHITE CHICKS
+S2_011 · sala 2 · AS BRANQUELAS
+S2_012 · sala 2 · SUITS
+S2_013 · sala 2 · THE OFFICE
+S2_014 · sala 2 · CONSULTA AS NOVE
+S2_015 · sala 2 · O GAMBITO DA VIDA
+S2_016 · sala 2 · O DISCURSO DE EMILY
+S2_017 · sala 2 · FOBIAS
+S2_018 · sala 2 · MARGENS
+S2_019 · sala 2 · HIV — O terror de José
+S2_020 · sala 2 · MARTE
+S2_021 · sala 2 · ENTORPECIDOS
+S2_022 · sala 2 · CAIU NA REDE, É PEIXE!
+S2_024 · sala 2 · Oduvaldo e Iracema uma história de amor
+S2_025 · sala 2 · Love at first sight
+S2_026 · sala 2 · Forrest Gump
+S2_027 · sala 2 · GROWN UPS
+S2_028 · sala 2 · VAI QUE COLA
+S2_030 · sala 2 · ESCAPISM
+S2_031 · sala 2 · ESCAPISMO
+S2_033 · sala 2 · MEAN GIRLS
+S2_034 · sala 2 · Chaves
+S3_000 · sala 3 · sem legenda externa
+S3_001 · sala 3 · sem legenda externa
+S3_002 · sala 3 · sem legenda externa
+S3_003 · sala 3 · sem legenda externa
+S3_004 · sala 3 · sem legenda externa
+S3_005 · sala 3 · sem legenda externa
+S3_006 · sala 3 · sem legenda externa
+S3_007 · sala 3 · sem legenda externa
+S3_008 · sala 3 · sem legenda externa
+S3_009 · sala 3 · sem legenda externa
+S4_000 · sala 4 · sem legenda externa
+S4_001 · sala 4 · sem legenda externa
+S4_002 · sala 4 · sem legenda externa

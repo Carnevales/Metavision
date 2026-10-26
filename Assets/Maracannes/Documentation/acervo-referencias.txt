@@ -1,0 +1,4 @@
+PASS Referências GUID Maracannes_Acervo.unity: 146 referências, 0 ausentes.
+PASS Referências GUID Teatro_Centro_SESI.unity: 62 referências, 0 ausentes.
+PASS Dois ambientes habilitados nos Build Settings: teatro e Maracannes_Acervo.
+PASS Originais: 43 hashes SHA-256 sem divergência; ver acervo-integridade.txt.

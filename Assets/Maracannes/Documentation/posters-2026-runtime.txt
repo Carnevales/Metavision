@@ -1,0 +1,15 @@
+FAIL · Play Mode: 14 novos cartazes; 17 na Sala 4; quatro salas preservadas
+FAIL S4_NOVO_01 · original integral, material válido, sem interação e sem legenda
+FAIL S4_NOVO_02 · original integral, material válido, sem interação e sem legenda
+FAIL S4_NOVO_03 · original integral, material válido, sem interação e sem legenda
+FAIL S4_NOVO_04 · original integral, material válido, sem interação e sem legenda
+FAIL S4_NOVO_05 · original integral, material válido, sem interação e sem legenda
+FAIL S4_NOVO_06 · original integral, material válido, sem interação e sem legenda
+FAIL S4_NOVO_07 · original integral, material válido, sem interação e sem legenda
+FAIL S4_NOVO_08 · original integral, material válido, sem interação e sem legenda
+FAIL S4_NOVO_09 · original integral, material válido, sem interação e sem legenda
+FAIL S4_NOVO_10 · original integral, material válido, sem interação e sem legenda
+FAIL S4_NOVO_11 · original integral, material válido, sem interação e sem legenda
+FAIL S4_NOVO_12 · original integral, material válido, sem interação e sem legenda
+FAIL S4_NOVO_13 · original integral, material válido, sem interação e sem legenda
+FAIL S4_NOVO_14 · original integral, material válido, sem interação e sem legenda
