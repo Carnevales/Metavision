@@ -11,6 +11,7 @@ public sealed class MuseumPoint : MonoBehaviour {
  public Rect photoRegion=new Rect(0,0,1,1);
  public string credit;
  public float radius=2.2f;
- public string Prompt {get {return action==MuseumAction.Ticket?"[E] RETIRAR INGRESSO":action==MuseumAction.Gate?"[E] ENTRAR NO TEATRO":"[E] EXPLORAR EXPOSIÇÃO";}}
+ public bool imageOnly;
+ public string Prompt {get {return imageOnly?"[E] EXAMINAR CARTAZ":action==MuseumAction.Ticket?"[E] RETIRAR INGRESSO":action==MuseumAction.Gate?"[E] ENTRAR NO TEATRO":"[E] EXPLORAR EXPOSIÇÃO";}}
 }
 }

@@ -1,0 +1,2 @@
+PASS Verificação independente SHA-256: 344 arquivos e metadados do cinema permanecem idênticos. Caminhos virtuais Packages/ resolvidos para Library/PackageCache na verificação externa. Nenhum arquivo alterado ou ausente.
+Build Web concluída com 0 erros. ZIP 143.504.055 bytes; maior arquivo 136.999.451 bytes; 17 arquivos, index.html na raiz; integridade ZIP validada.

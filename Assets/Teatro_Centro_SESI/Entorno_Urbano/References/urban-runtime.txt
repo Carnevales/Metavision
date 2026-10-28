@@ -1,0 +1,6 @@
+PASS · Play Mode · céu, edifícios e circulação
+PASS Skybox HDRI válido, shader suportado e câmera principal em Skybox
+PASS 11 edifícios tridimensionais com colisões e LOD
+PASS Materiais locais válidos, sem shader ausente
+PASS Caminhada exterior até entrada com piso e colisões
+Renderers: 393; triângulos LOD0+LOD1: 404230

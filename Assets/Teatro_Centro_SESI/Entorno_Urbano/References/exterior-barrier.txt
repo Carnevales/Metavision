@@ -1,0 +1,1 @@
+PASS - quatro BoxColliders sólidos, sem Renderer; limite da rua z=-58m, laterais x=+-65m, fundos z=65m; altura 32m, espessura 2m. Entrada e interiores preservados. Cena salva.

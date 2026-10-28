@@ -1,0 +1,1 @@
+PASS — Sprite dourado transparente importado, logo configurada na Splash Screen por 3s, fundo azul-marinho, Made with Unity abaixo, ícone padrão e plataformas Windows/Web configurados. Configuração salva. Exibição de inicialização deve ser conferida na próxima build; Play Mode não reproduz automaticamente a splash nativa.

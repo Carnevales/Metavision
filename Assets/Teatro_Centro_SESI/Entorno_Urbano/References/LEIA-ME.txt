@@ -1,0 +1,18 @@
+ENTORNO URBANO — REFERÊNCIAS E LIMITAÇÕES
+
+Unidade confirmada: Teatro Firjan SESI Centro, Avenida Graça Aranha 1, esquina Rua Santa Luzia, Rio de Janeiro.
+Referências visuais consultadas:
+https://cartadaindustria.firjan.com.br/publicacoes/trinta-anos-da-firjan-sede — fachada da sede, esquinas, relação com vizinhos; fotografia noturna e entrada. A construção atual do teatro é preservada, sem substituir sua fachada.
+https://www.timeout.com/pt/rio-de-janeiro/teatro/teatro-firjan-sesi-centro — fachada diurna, calçada portuguesa, marquise e táxis.
+https://www.teixeiraduarteconstrucao.com.br/edificio-barao-de-maua-no-rio-de-janeiro-conquista-certificacao-leed/ — fachada reformada de brises do Edifício Barão de Mauá.
+https://www.colliers.com/pt-br/propriedades/edifício-barão-de-mauá-prédio-comercial-inteiro-disponível-para-venda-no-rio-de-janeiro-rj-vista-para-a-baía-de-guanabara-obra-do-renomado-arquiteto-oscar-niemeyer/bra-avenida-graça-aranha-26-rio-de-janeiro-rj-cep-20030-000/bra8001144 — localização Graça Aranha 26 e proporções da torre.
+https://www.academia.org.br/academia/petit-trianon — referência institucional da ABL, composição clássica.
+https://publicacoes.docomomobrasil.com/anais/article/download/238/162 — identificação do conjunto urbano na esquina e sua relação com Capanema.
+
+Implantação: dados OpenStreetMap públicos, consulta 26/10/2026. Arquivo OSM_entorno.json. Créditos © OpenStreetMap contributors, licença ODbL: https://www.openstreetmap.org/copyright . Transformação local aproximada em Implantacao.json; origem estimada na entrada, eixos ajustados à cena já existente. Não é levantamento cadastral nem levantamento topográfico. Os números de altura OSM são indicativos e não foram confirmados por medição. Posições, recuos e alturas são aproximações para compatibilizar o projeto existente. Fachadas sem documentação suficiente não recebem identidade inventada: permanecem identificadas pelo ID OSM e têm composição neutra estimada. Laterais e fundos incompletos foram fechados com solução coerente. Torre e base de Capanema e Austregésilo simplificadas. A altura e a fachada original do teatro não foram reconstruídas.
+
+Imagens públicas usadas apenas para estudo visual; não usadas como texturas ou redistribuídas. As fotografias temporárias não fazem parte dos assets do jogo. Modelos de edifícios, carros e mobiliário criados proceduralmente em C# no próprio projeto. Geometria 3D, sem painéis fotográficos de edifícios. Dois níveis de detalhe e malhas agrupadas por material. Texturas de calçada já existentes reutilizadas e superfícies procedurais originais.
+
+CÉU: Kloofendal 48d Partly Cloudy (Pure Sky), Poly Haven, Greg Zaal (original) e Jarod Guest (edição céu). CC0, https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky e https://polyhaven.com/license . HDRI 2K original, 5.451.493 bytes, cópia local em Textures/Ceu_Diurno_PolyHaven_2k.hdr. HDR panorâmico 360°, não imagem plana. Material Lighting/Ceu_Diurno_PolyHaven.mat configurado em RenderSettings.skybox (Lighting > Environment), exposição 0,85 e rotação 110°. Sol existente reutilizado, intensidade 1,15, sombras suaves, cor levemente quente; ambiente Trilight diurno e reflexos 0,6. UrbanDaylight assegura céu na câmera do visitante após cargas de cena; alcance 650 m. Pipeline existente preservado.
+
+BACKUP: References/Teatro_Antes_Entorno.unity. A cena alterada é Assets/Teatro_Centro_SESI/Scenes/Teatro.unity; Menu e Acervo preservados. Colisores externos ampliados para incluir o bairro sem bloquear o acesso ao teatro. As cenas habilitadas no build são preservadas.

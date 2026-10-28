@@ -1,0 +1,5 @@
+PASS Menu Metavision carregado no navegador local.
+PASS Clique em Entrar carregou o ambiente do acervo, com cartazes e objetos renderizados.
+Teste visual efetuado em http://127.0.0.1:8765, sem upload ao itch.io. Não foi testado o percurso completo nem a publicação no itch.io.
+Avisos observados: SfxVolume inexistente no mixer do menu; FSR Edge Adaptive Spatial Upsampling não suportado pelo navegador; avisos de sincronização de persistentDataPath. O navegador integrado também registrou UnknownError do Chromium durante captura de cursor. Não foram alterados os sistemas do cinema para tratar esses avisos.
+Evidência: Builds/WebFinal_Verification/Acervo_Web.png

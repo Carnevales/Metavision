@@ -1,0 +1,13 @@
+BUILD WEB — buidfinal
+
+Objetivo: reduzir o download para atender ao limite do itch.io sem alterar o cinema.
+
+Alteração: somente overrides de importação WebGL das texturas exclusivas em Assets/Maracannes/Images. Limite de 1024 px para cartazes comuns, panorama S4_002 mantido em 8192 px. Compressão HQ/Crunch. Arquivos originais das imagens preservados. Outras plataformas mantêm as configurações anteriores.
+Cenas de menu, teatro e acervo mantidas na lista de build.
+Cinema protegido: cena Teatro e suas dependências, incluindo metadados, verificadas por SHA-256 antes e depois da build.
+Backup dos metadados e do perfil Web: Builds/WebFinal_Backup.
+Build: Web Desktop, Release, Brotli com decompression fallback. Nenhum upload automático ao itch.io.
+
+Envio: carregar buidfinal.zip no itch.io como HTML e marcar para executar no navegador. O ZIP contém index.html na raiz, Build/ e TemplateData/.
+Medições e resultado de compilação: web-final-build.txt.
+Teste de carregamento local: resultado registrado após a compilação.

@@ -1,0 +1,62 @@
+WEB TEXTURE Assets/Maracannes/Images/Sala3/S3_005.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala2/S2_014.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala2/S2_011.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Experience2024/EXP2024_01_01.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala3/S3_000.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala4/Cartazes_2026/CartazTudoPorUmPopStar 1.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala2/S2_021.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala3/S3_008.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala2/S2_001.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala2/S2_006.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Experience2024/EXP2024_04_01.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala4/Cartazes_2026/1790359371259-d7512ee1-6395-469e-b4ad-a032dada0cb5_1 1.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala2/S2_008.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala4/Cartazes_2026/Cartaz 1.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala3/S3_004.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala2/S2_034.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala2/S2_010.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala4/S4_002.png | limite 8192 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala3/S3_003.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala3/S3_006.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala2/S2_004.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala4/Cartazes_2026/WhatsApp Image 2026-09-16 at 18.06.20 1.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala4/Cartazes_2026/984 - Cidade dos Homens_page-0001 1.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala4/Cartazes_2026/Ponto Cego - 997 1.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Experience2024/WhatsApp Image 2026-10-25 at 22.02.15.jpeg | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala2/S2_016.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala4/Cartazes_2026/POSTER FILME MARACANNES 994 1.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Experience2024/EXP2024_03_01.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala4/S4_000.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Experience2024/WhatsApp Image 2024-09-18 at 13.06.42.jpeg | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala2/S2_003.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala2/S2_020.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Experience2024/WhatsApp Image 2024-09-18 at 13.06.43.jpeg | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala3/S3_007.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala2/S2_009.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala4/Cartazes_2026/1790359493367-ee9f299d-c7d5-42be-b539-2884f4f61131_1 1.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala3/S3_001.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala4/Cartazes_2026/WhatsApp Image 2026-09-04 at 09.29.20 1.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala3/S3_009.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala2/S2_031.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala4/Cartazes_2026/Cartaz Caos - O FILME 2.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala4/Cartazes_2026/WhatsApp Image 2026-09-16 at 18.08.13 1.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala4/Cartazes_2026/Cartaz pdf 1.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala2/S2_022.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala2/S2_002.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala2/S2_030.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Experience2024/EXP2024_06_01.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala2/S2_019.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Experience2024/EXP2024_05_01.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala4/Cartazes_2026/poster tropa de elite 1.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala2/S2_018.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala2/S2_033.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala2/S2_013.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala4/Cartazes_2026/IMG-20260925-WA0112 1.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala2/S2_017.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala2/S2_015.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala3/S3_002.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala4/S4_001.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala2/S2_005.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Experience2024/EXP2024_02_01.png | limite 1024 | compressão HQ/Crunch
+WEB TEXTURE Assets/Maracannes/Images/Sala2/S2_012.png | limite 1024 | compressão HQ/Crunch
+PASS Cinema preservado: hashes idênticos para 344 arquivos e metadados de dependências.

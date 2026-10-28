@@ -1,0 +1,11 @@
+{
+  "zip_bytes": 143504592,
+  "zip_MB": 143.5,
+  "max_file_MB": 137.0,
+  "files": 18,
+  "index_at_root": true,
+  "zip_integrity": true,
+  "all_under_200MB": true,
+  "render_resolution": "1920x1080",
+  "display_test": "1920x1080; 1280x720 proportional fit, render remains 1920x1080"
+}

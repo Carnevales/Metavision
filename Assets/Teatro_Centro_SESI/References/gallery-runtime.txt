@@ -1,0 +1,6 @@
+PASS Foto do foyer abre e amplia na interface existente
+PASS Fechar foto devolve controles
+PASS Todos os 61 cartazes têm imagem original para exame
+PASS Examinar cartaz abre imagem ampliada e libera cursor
+PASS Fechar cartaz restaura exploração
+PASS Retorno ao teatro preservado

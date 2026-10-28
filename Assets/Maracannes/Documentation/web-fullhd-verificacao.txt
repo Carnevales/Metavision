@@ -1,0 +1,4 @@
+PASS Navegador: canvas.width=1920 e canvas.height=1080 após carregar o menu.
+PASS Exibição em 1920x1080 na janela Full HD.
+PASS Janela menor 1280x720: proporção 16:9 mantida, buffer de renderização continua 1920x1080.
+ZIP buidfinal.zip atualizado; index.html na raiz; dados e código do jogo preservados.

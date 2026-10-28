@@ -1,0 +1,1 @@
+PASS 11 volumes 3D baseados em implantação OSM; fachadas detalhadas, LOD e colisões. Teatro preservado. Céu HDRI CC0 e câmeras configurados.
